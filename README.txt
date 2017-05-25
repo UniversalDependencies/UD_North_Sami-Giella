@@ -4,6 +4,6 @@ Data source: automatic
 Data available since: UD v2.1
 License: CC BY-SA 4.0
 Genre: nonfiction news
-Contributors: Tyers, Francis
+Contributors: Trosterud, Trond; Antonsen, Lene; Tyers, Francis
 Contact: ftyers@prompsit.com
 ===============================================================================
