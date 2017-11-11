@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>3142</sentences><tokens>26992</tokens><words>26992</words><fused>0</fused></total>
+  </size>
+  <lemmas unique="4367" /><!-- ., leat, ,, ja, son, mun, ii, dat, go, ?, don, mii, boahtit, ieš, dát -->
+  <forms unique="7675" /><!-- ., ,, ja, lea, leat, go, ?, son, lei, ii, mun, mii, dat, ahte, dan -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="14">
+    <tag name="ADJ">1382</tag><!-- buorre, stuoris, ollu, ođas, vuosttaš, boaris, guhkki, váttis, nuorra, nubbi -->
+    <tag name="ADP">504</tag><!-- birra, mielde, lusa, gaskkas, ovddas, rájes, mielas, luhtte, bokte, maŋŋá -->
+    <tag name="ADV">2111</tag><!-- de, gal, nu, dál, dušše, maid, maiddái, doppe, hui, juo -->
+    <tag name="AUX">622</tag><!-- leat -->
+    <tag name="CCONJ">1014</tag><!-- ja, muhto, dahje, vai, ahte, dahe, dahjege, dehe -->
+    <tag name="INTJ">15</tag><!-- vuoi, gea, hei, ho, hoi, maid -->
+    <tag name="NOUN">6465</tag><!-- mánná, olmmoš, sápmi, jahki, skuvla, girji, nieida, sámegiella, áigi, eadni -->
+    <tag name="NUM">351</tag><!-- guokte, okta, golbma, máŋga, vihtta, moadde, njeallje, galle, guhtta, 12 -->
+    <tag name="PART">255</tag><!-- go, ge, dat, na, goit, han, son, amma, ges, nai -->
+    <tag name="PRON">2860</tag><!-- son, mun, dat, don, mii, ieš, dát, gii, buot, eará -->
+    <tag name="PROPN">1002</tag><!-- Kárášjohka, Sámediggi, Finnmárku, Guovdageaidnu, Norga, Gállá, Máhtte, Máret, Sápmi, Romsa -->
+    <tag name="PUNCT">4166</tag><!-- ., ,, ?, ^excl, :, -, &#34;, (, ), – -->
+    <tag name="SCONJ">535</tag><!-- go, ahte, vai, vaikko, jus, jos, dego, ovdalgo, juos, ovdal_go -->
+    <tag name="VERB">5710</tag><!-- leat, ii, boahtit, sáhttit, galgat, mannat, oažžut, oaidnit, vuolgit, váldit -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="46">
+    <feat name="Aspect" value="Perf" upos="AUX,VERB">509</feat><!-- leamaš, oaidnán, ožžon, boahtán, mannan, oahppan, čállán, bargan, dahkan, váldán -->
+    <feat name="Case" value="Abe" upos="VERB">11</feat><!-- beroškeahttá, eahpitkeahttá, logakeahttá, bážikeahttá, dieđikeahttá, mávssekeahtes -->
+    <feat name="Case" value="Acc" upos="ADJ,NOUN,NUM,PRON,PROPN">1788</feat><!-- dan, maid, su, iežas, daid, sámegiela, dán, guokte, iežaset, veahki -->
+    <feat name="Case" value="Com" upos="ADJ,NOUN,NUM,PRON,PROPN">334</feat><!-- dainna, biillain, mánáiguin, daiguin, mánáin, ovttain, vugiin, Sámedikkiin, buriin, dáinna -->
+    <feat name="Case" value="Ess" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">306</feat><!-- duhtavažžan, oahpaheaddjin, lassin, veahkkin, nuorran, ovdamearkan, boahtimin, leamen, nubbin, vuođđun -->
+    <feat name="Case" value="Gen" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">2058</feat><!-- sámi, mu, jagi, dan, dán, min, su, iežas, sin, beaivvi -->
+    <feat name="Case" value="Ill" upos="ADJ,NOUN,NUM,PRON,PROPN">771</feat><!-- munnje, dasa, sutnje, dutnje, mánáide, Kárášjohkii, skuvlii, gávpogii, meahccái, sidjiide -->
+    <feat name="Case" value="Loc" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">1280</feat><!-- mus, dus, das, dán, mis, sis, sus, skuvllas, Kárášjogas, Guovdageainnus -->
+    <feat name="Case" value="Nom" upos="ADJ,NOUN,NUM,PRON,PROPN">4351</feat><!-- son, mun, mii, dat, sii, don, dát, soai, olbmot, moai -->
+    <feat name="Connegative" value="Yes" upos="AUX,VERB">402</feat><!-- leat, lean, dieđe, sáhte, boađe, beasa, diehtán, daga, galgga, gillen -->
+    <feat name="Degree" value="Cmp" upos="ADJ,ADV">125</feat><!-- eanet, buoret, eambbo, guhkit, stuorát, unnit, heajut, ovddit, stuorit, vuolit -->
+    <feat name="Degree" value="Sup" upos="ADJ,ADV">85</feat><!-- buoremus, boarráseamos, maŋimus, maŋimuš, nuoramus, Vearrámus, boarrásepmosat, buoremusaid, eanemus, maŋemus -->
+    <feat name="Mood" value="Cnd" upos="AUX,VERB">74</feat><!-- livččii, livčče, galggaše, galggašii, sáhtášii, berrešii, boađášii, livččen, áiggošin, Dieđálin -->
+    <feat name="Mood" value="Imp" upos="AUX,VERB">163</feat><!-- ale, boađe, mana, váldde, bija, allet, geahča, Gula, Oahpa, Addet -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">4522</feat><!-- lea, leat, lei, ii, ledje, lean, eai, galgá, sáhttá, in -->
+    <feat name="Mood" value="Pot" upos="AUX,VERB">74</feat><!-- leažžá, leaččan, bođeža, bođežit, Bođežehpet, bođežeaba, dagažit, eležat, leažžat, ležže -->
+    <feat name="Number" value="Dual" upos="AUX,PRON,VERB">385</feat><!-- soai, moai, doai, leaba, leahppi, eaba, ean, munno, boahtiba, leigga -->
+    <feat name="Number" value="Plur" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">4024</feat><!-- leat, ledje, mii, sii, eai, min, olbmot, mánát, sin, daid -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">10408</feat><!-- lea, son, lei, ii, mun, dan, dat, sámi, dán, mu -->
+    <feat name="Number[psor]" value="Dual" upos="ADJ,NOUN,PRON">46</feat><!-- iežade, iežaska, alcceseame, beatnagasaska, iežaineaskka, mánáidasame, Oappásteame, alcceseaskka, alcceseatte, alddiska -->
+    <feat name="Number[psor]" value="Plur" upos="ADJ,ADV,NOUN,PRON">102</feat><!-- iežaset, iežadet, iežamet, alcceseamet, mánáideaset, alcceseaset, alcceseattet, alddiset, gaskaneaset, áhčiset -->
+    <feat name="Number[psor]" value="Sing" upos="ADJ,ADV,NOUN,PRON">270</feat><!-- iežas, iežan, iežat, alccesis, vielljan, alddis, dahkamušaidis, eatnis, áhčis, iežainis -->
+    <feat name="NumType" value="Card" upos="NUM">351</feat><!-- guokte, golbma, ovtta, okta, moadde, máŋga, golmma, vihtta, guovtti, máŋgga -->
+    <feat name="Person" value="1" upos="AUX,PRON,VERB">1191</feat><!-- mun, mii, mu, min, in, lean, moai, munnje, mus, eat -->
+    <feat name="Person" value="2" upos="AUX,PRON,VERB">558</feat><!-- don, dii, du, dus, leat, doai, it, lehpet, ale, din -->
+    <feat name="Person" value="3" upos="AUX,PRON,VERB">4047</feat><!-- lea, son, leat, lei, ii, ledje, sii, eai, galgá, su -->
+    <feat name="Person[psor]" value="1" upos="ADJ,NOUN,PRON">92</feat><!-- iežan, vielljan, iežamet, alcceseamet, alccesan, alcceseame, bártnážan, heaggan, iežainan, mánáidasame -->
+    <feat name="Person[psor]" value="2" upos="NOUN,PRON">69</feat><!-- iežat, iežadet, iežade, alccesat, alcceseattet, mánát, áhččát, alcceseatte, alddáde, beatnagat -->
+    <feat name="Person[psor]" value="3" upos="ADJ,ADV,NOUN,PRON">257</feat><!-- iežas, iežaset, alccesis, alddis, dahkamušaidis, eatnis, áhčis, iežainis, iežaska, mánáideaset -->
+    <feat name="Polarity" value="Neg" upos="VERB">430</feat><!-- ii, eai, in, eat, it, ale, eaba, iige, eaige, ean -->
+    <feat name="PronType" value="Coll" upos="NOUN">40</feat><!-- máŋggas, guovttis, Máŋgasat, golbmasa, golbmasis, golmmas, guovttos, máná-guovttos, viđas, Biera-guovttos -->
+    <feat name="PronType" value="Dem" upos="PRON">648</feat><!-- dat, dan, dán, dát, daid, dasa, dakkár, das, dainna, diet -->
+    <feat name="PronType" value="Ind" upos="PRON">345</feat><!-- buot, juohke, eará, muhtun, unnán, maidege, oktage, muhtin, nuppi, seamma -->
+    <feat name="PronType" value="Int" upos="PRON">50</feat><!-- makkár, maid, Mii, gii, Gean, Goabbá, maidba -->
+    <feat name="PronType" value="Prs" upos="PRON">1542</feat><!-- son, mun, mii, sii, mu, don, su, iežas, soai, min -->
+    <feat name="PronType" value="Rcp" upos="PRON">8</feat><!-- guhtet, goabbat, guimmiideaset, guimmiideasetguin, guoimmiska, nubbi, nuppiin -->
+    <feat name="PronType" value="Rel" upos="PRON">267</feat><!-- mii, maid, geat, mat, gii, mas, gean, guhte, man, geain -->
+    <feat name="Reflex" value="Yes" upos="PRON">183</feat><!-- iežas, iežaset, ieš, ieža, iežan, iežat, alccesis, alddis, iežadet, iežamet -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">1479</feat><!-- lei, ledje, bođii, manai, lean, šattai, bohte, ledjen, oidnen, galggai -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">2802</feat><!-- lea, leat, galgá, sáhttá, lean, boahtá, lohká, dieđe, galget, leaba -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">4833</feat><!-- lea, leat, lei, ii, ledje, lean, eai, galgá, sáhttá, in -->
+    <feat name="VerbForm" value="Ger" upos="AUX,VERB">131</feat><!-- beroškeahttá, boahtimin, leamen, vácci, fárremin, čierastallame, čuoigga, bargame, bargamin, bassaladdame -->
+    <feat name="VerbForm" value="Inf" upos="AUX,VERB">835</feat><!-- leat, vuolgit, boahtit, bargat, mannat, geahččat, oastit, oažžut, dahkat, ráhkadit -->
+    <feat name="VerbForm" value="Part" upos="AUX,VERB">526</feat><!-- leamaš, oaidnán, ožžon, boahtán, mannan, oahppan, čállán, bargan, dahkan, váldán -->
+    <feat name="VerbForm" value="Sup" upos="VERB">7</feat><!-- amadet, amas, amaset, amat, vuoššažit -->
+    <feat name="Voice" value="Pass" upos="VERB">243</feat><!-- adnojuvvo, álggahuvvui, addojuvvo, dárbbašuvvojit, filbmejuvvon, gáibiduvvo, mearriduvvo, ráddjejuvvon, ráhkaduvvon, vuođđuduvvon -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="34">
+    <dep name="acl">129</dep>
+    <dep name="acl:relcl">270</dep>
+    <dep name="advcl">590</dep>
+    <dep name="advmod">2091</dep>
+    <dep name="amod">1213</dep>
+    <dep name="appos">69</dep>
+    <dep name="aux">951</dep>
+    <dep name="aux:neg">430</dep>
+    <dep name="case">480</dep>
+    <dep name="cc">988</dep>
+    <dep name="cc:preconj">29</dep>
+    <dep name="ccomp">198</dep>
+    <dep name="compound">26</dep>
+    <dep name="compound:nn">31</dep>
+    <dep name="conj">878</dep>
+    <dep name="cop">622</dep>
+    <dep name="csubj">54</dep>
+    <dep name="det">219</dep>
+    <dep name="discourse">270</dep>
+    <dep name="flat">131</dep>
+    <dep name="mark">535</dep>
+    <dep name="nmod">155</dep>
+    <dep name="nmod:poss">985</dep>
+    <dep name="nsubj">3309</dep>
+    <dep name="nummod">242</dep>
+    <dep name="obj">1498</dep>
+    <dep name="obl">2708</dep>
+    <dep name="parataxis">324</dep>
+    <dep name="punct">4166</dep>
+    <dep name="root">3142</dep>
+    <dep name="vocative">16</dep>
+    <dep name="xcomp">170</dep>
+    <dep name="xcomp:obj">70</dep>
+    <dep name="xcomp:pred">3</dep>
+  </deps>
+</treebank>
