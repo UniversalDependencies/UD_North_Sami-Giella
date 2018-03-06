@@ -8,14 +8,14 @@ corpus of North Sámi produced by the Giellatekno team at UiT Norgga árktalaš 
 The corpus was first analysed using a finite-state morphological analyser for North Sámi, and then
 disambiguated using a constraint-grammar-based disambiguator. The constraint grammar disambiguator
 also annotated syntactic function labels. The analyses and the function labels were manually
-corrected to produce a gold standard, and then a rule-based dependency parser was run on top 
+corrected to produce a gold standard, and then a rule-based dependency parser was run on top
 of the gold data. On top of those parsers a series of tree-rewrite rules were used to convert
 the corpus to Universal Dependencies. Please see the paper below for details.
 
-# Acknowledgements 
+# Acknowledgements
 
-We are immensely grateful to the Giellatekno team, and especially to Trond Trosterud and Lene Antonsen 
-for annotating the original data and for producing the rule-based parser on which the treebank is 
+We are immensely grateful to the Giellatekno team, and especially to Trond Trosterud and Lene Antonsen
+for annotating the original data and for producing the rule-based parser on which the treebank is
 based. Their comments and help were invaluable.
 
 If you use this data in your work, please cite:
@@ -28,6 +28,13 @@ If you use this data in your work, please cite:
     year = 2017
 }
 
+# Changelog
+
+* 2017-11-15 v2.1
+  * First official release after it was used as a surprise dataset in the
+    CoNLL 2017 shared task.
+
+<pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.1
 License: CC BY-SA 4.0
@@ -42,3 +49,4 @@ Contributors: Trosterud, Trond; Antonsen, Lene; Tyers, Francis
 Contributing: elsewhere
 Contact: ftyers@prompsit.com
 ===============================================================================
+</pre>
