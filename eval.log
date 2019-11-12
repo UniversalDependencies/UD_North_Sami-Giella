@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_North_Sami-Giella:
-commit 40794e8ee35d7557bd1cddfc74ac2457fa3cde46
-Merge: 540e41f 0468058
+commit 895e5e085b3d3ae20a382d2d52846abe878f281f
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Fri May 10 21:31:01 2019 +0200
 Size: counted 26845 of 26845 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.58015916774907.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -23,10 +23,34 @@ Udapi: found 60 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 26845 words.
 Genres: found 2 out of 17 known.
 validate.py --lang sme --max-err=10 UD_North_Sami-Giella/sme_giella-ud-test.conllu
-*** PASSED ***
+[Line 4 Sent 2 Node 2]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 49 Sent 4 Node 9]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 62 Sent 5 Node 2]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 93 Sent 7 Node 3]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 133 Sent 9 Node 16]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 134 Sent 9 Node 16]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (16:iige:aux --> 17:ná:advmod)
+[Line 135 Sent 9 Node 16]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (16:iige:aux --> 18:árrat:advmod)
+[Line 145 Sent 11 Node 6]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 151 Sent 11 Node 12]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+...suppressing further errors regarding Syntax
+Syntax errors: 694
+*** FAILED *** with 694 errors
+Exit code: 1
 validate.py --lang sme --max-err=10 UD_North_Sami-Giella/sme_giella-ud-train.conllu
-*** PASSED ***
-Validity: 1
+[Line 5 Sent 1053 Node 3]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [1, 2]
+[Line 29 Sent 1055 Node 2]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 66 Sent 1059 Node 2]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 72 Sent 1059 Node 8]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [10]
+[Line 99 Sent 1061 Node 9]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [6, 10, 12]
+[Line 119 Sent 1064 Node 4]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 178 Sent 1072 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 192 Sent 1073 Node 4]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 266 Sent 1080 Node 9]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [12]
+...suppressing further errors regarding Syntax
+Syntax errors: 1039
+*** FAILED *** with 1039 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
@@ -35,6 +59,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.658823529411765) = 0.0506787330316742
 (weight=0.307692307692308) * (score{udapi}=0.977649469174893) = 0.300815221284582
 (weight=0.0769230769230769) * (score{udeprels}=0.583783783783784) = 0.0449064449064449
-(TOTAL score=0.68501114804667) * (availability=1) * (validity=1) = 0.68501114804667
-STARS = 3.5
-UD_North_Sami-Giella	0.68501114804667	3.5
+(TOTAL score=0.68501114804667) * (availability=1) * (validity=0.01) = 0.0068501114804667
+STARS = 0
+UD_North_Sami-Giella	0.0068501114804667	0
