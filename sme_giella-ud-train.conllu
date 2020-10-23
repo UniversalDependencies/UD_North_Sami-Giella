@@ -2,7 +2,7 @@
 # text = Golbma čáppa, doaimmalaš nieidda livžo áhčiset riegádanbeaivve.
 1	Golbma	golbma	NUM	Num	Case=Nom|Number=Sing|NumType=Card	5	nummod	_	_
 2	čáppa	čáppat	ADJ	A	_	5	amod	_	SpaceAfter=No
-3	,	,	PUNCT	CLB	_	6	punct	_	_
+3	,	,	PUNCT	CLB	_	5	punct	_	_
 4	doaimmalaš	doaimmalaš	ADJ	A	_	5	amod	_	_
 5	nieidda	nieida	NOUN	N	Case=Gen|Number=Sing	6	nsubj	_	_
 6	livžo	livžut	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -69,7 +69,7 @@
 5	dábuhahtti	dábuhit	VERB	V*	Tense=Pres|VerbForm=Part	6	acl	_	_
 6	dieđuid	diehtu	NOUN	N	Case=Acc|Number=Plur	3	obj	_	_
 7	Finnmárkkuopmodagas	Finnmárkkuopmodat	PROPN	N	Case=Loc|Number=Sing	3	obl	_	SpaceAfter=No
-8	,	,	PUNCT	CLB	_	3	punct	_	_
+8	,	,	PUNCT	CLB	_	10	punct	_	_
 9	maid	mii	PRON	Pron	Case=Acc|Number=Sing|PronType=Rel	10	obj	_	_
 10	dárbbaša	dárbbašit	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
 11	dahkamušaidis	dahkamuš	NOUN	N	Case=Gen|Number=Plur|Number[psor]=Sing|Person[psor]=3	12	nmod:poss	_	_
@@ -96,7 +96,7 @@
 6	Gárdima	Gárdin	PROPN	N	Case=Gen|Number=Sing	13	nmod:poss	_	_
 7	ja	ja	CCONJ	CC	_	6	cc	_	_
 8	Mollešjoga	Mollešjohka	PROPN	N	Case=Gen|Number=Sing	6	conj	_	SpaceAfter=No
-9	,	,	PUNCT	CLB	_	5	punct	_	_
+9	,	,	PUNCT	CLB	_	10	punct	_	_
 10	Šuoššjávrri	Šuoššjávri	PROPN	N	Case=Gen|Number=Sing	6	conj	_	_
 11	ja	ja	CCONJ	CC	_	10	cc	_	_
 12	Iešjohleagi	Iešjohleahki	PROPN	N	Case=Gen|Number=Sing	6	conj	_	_
@@ -263,7 +263,7 @@
 6	nuppi	nubbi	ADJ	A	Case=Gen|Number=Sing	7	nmod:poss	_	_
 7	gearddi	geardi	NOUN	N	Case=Gen|Number=Sing	2	obl	_	_
 8	čađa	čađa	ADP	Po	_	7	case	_	SpaceAfter=No
-9	,	,	PUNCT	CLB	_	2	punct	_	_
+9	,	,	PUNCT	CLB	_	12	punct	_	_
 10	gos	gos	ADV	Adv	_	12	advmod	_	_
 11	ii	ii	AUX	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	12	aux:neg	_	_
 12	buollán	buollit	VERB	V	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin	7	acl:relcl	_	SpaceAfter=No
@@ -639,7 +639,7 @@
 8	maid	mii	PRON	Pron	Case=Acc|Number=Sing|PronType=Rel	10	obj	_	_
 9	Vuoigŋa	Vuoigŋa	PROPN	N	Case=Nom|Number=Sing	10	nsubj	_	_
 10	hálida	háliidit	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	SpaceAfter=No
-11	,	,	PUNCT	CLB	_	7	punct	_	_
+11	,	,	PUNCT	CLB	_	14	punct	_	_
 12	dasgo	dasgo	SCONJ	CS	_	14	mark	_	_
 13	Vuoigŋa	Vuoigŋa	PROPN	N	Case=Nom|Number=Sing	14	nsubj	_	_
 14	rohkadallá	rohkadallat	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
@@ -741,7 +741,7 @@
 3	Sámediggi	Sámediggi	PROPN	N	Case=Nom|Number=Sing	4	nsubj	_	_
 4	álggahii	álggahit	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	Divvuma	Divvun	PROPN	N	Case=Acc|Number=Sing	4	obj	_	SpaceAfter=No
-6	,	,	PUNCT	CLB	_	4	punct	_	_
+6	,	,	PUNCT	CLB	_	9	punct	_	_
 7	mii	mii	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	9	nsubj	_	_
 8	lei	leat	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
 9	prošeakta	prošeakta	NOUN	N	Case=Nom|Number=Sing	5	acl:relcl	_	_
@@ -937,7 +937,7 @@
 3	lea	leat	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	min	mun	PRON	Pron	Case=Gen|Number=Plur|Person=1|PronType=Prs	3	obl	_	_
 5	beale	beale	ADP	Po	_	4	case	_	SpaceAfter=No
-6	,	,	PUNCT	CLB	_	3	punct	_	_
+6	,	,	PUNCT	CLB	_	8	punct	_	_
 7	gii	gii	PRON	Pron	Case=Nom|Number=Sing|PronType=Int	8	nsubj	_	_
 8	lea	leat	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	_
 9	min	mun	PRON	Pron	Case=Gen|Number=Plur|Person=1|PronType=Prs	8	obl	_	_
@@ -969,7 +969,7 @@
 5	jagi	jahki	NOUN	N	Case=Gen|Number=Sing	7	nmod:poss	_	_
 6	deavdán	deavdit	VERB	V	Aspect=Perf|VerbForm=Part	7	acl	_	_
 7	mánás	mánná	NOUN	N	Case=Loc|Number=Sing	3	obl	_	SpaceAfter=No
-8	,	,	PUNCT	CLB	_	3	punct	_	_
+8	,	,	PUNCT	CLB	_	11	punct	_	_
 9	gii	gii	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	11	nsubj	_	_
 10	ii	ii	AUX	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	11	aux:neg	_	_
 11	leat	leat	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
@@ -988,7 +988,7 @@
 1	Jáhkobii	Jáhkob	PROPN	N	Case=Ill|Number=Sing	2	obl	_	_
 2	riegádii	riegádit	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	Jovsset	Jovsset	PROPN	N	Case=Nom|Number=Sing	2	nsubj	_	SpaceAfter=No
-4	,	,	PUNCT	CLB	_	2	punct	_	_
+4	,	,	PUNCT	CLB	_	6	punct	_	_
 5	Márjjá	Márjá	PROPN	N	Case=Gen|Number=Sing	6	nmod:poss	_	_
 6	boadnjá	boadnjá	NOUN	N	Case=Nom|Number=Sing	3	appos	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	2	punct	_	_
@@ -1007,7 +1007,7 @@
 2	meannuda	meannudit	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	buot	buot	PRON	Pron	PronType=Ind	14	nmod:poss	_	_
 4	Nordlándda	Nordlánda	PROPN	N	Case=Gen|Number=Sing	3	conj	_	SpaceAfter=No
-5	,	,	PUNCT	CLB	_	14	punct	_	_
+5	,	,	PUNCT	CLB	_	6	punct	_	_
 6	Romssa	Romsa	PROPN	N	Case=Gen|Number=Sing	4	conj	_	_
 7	ja	ja	CCONJ	CC	_	6	cc	_	_
 8	Finnmárkku	Finnmárku	PROPN	N	Case=Gen|Number=Sing	4	conj	_	_
@@ -1017,12 +1017,12 @@
 12	loatna-	loatna	NOUN	N	_	11	conj	_	_
 13	ja	ja	CCONJ	CC	_	12	cc	_	_
 14	stipeandaohcamiid	stipeandaohcan	NOUN	N	Case=Acc|Number=Plur	2	obj	_	SpaceAfter=No
-15	,	,	PUNCT	CLB	_	2	punct	_	_
-16	ja	ja	CCONJ	CC	_	14	cc	_	_
+15	,	,	PUNCT	CLB	_	19	punct	_	_
+16	ja	ja	CCONJ	CC	_	19	cc	_	_
 17	buot	buot	PRON	Pron	PronType=Ind	18	amod	_	_
 18	velggolaččaid	velggolaš	NOUN	N	Case=Gen|Number=Plur	19	nmod:poss	_	_
 19	máksingeahpádusohcamiid	máksingeahpádusohcan	NOUN	N	Case=Acc|Number=Plur	14	conj	_	SpaceAfter=No
-20	,	,	PUNCT	CLB	_	2	punct	_	_
+20	,	,	PUNCT	CLB	_	22	punct	_	_
 21	geat	gii	PRON	Pron	Case=Nom|Number=Plur|PronType=Rel	22	nsubj	_	_
 22	orrot	orrut	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
 23	seamma	seammá	PRON	Pron	PronType=Ind	24	amod	_	_
@@ -1037,12 +1037,12 @@
 4	ja	ja	CCONJ	CC	_	3	cc	_	_
 5	ovdánahttit	ovdánahttit	VERB	V	VerbForm=Inf	3	conj	_	_
 6	riikkaid	riika	NOUN	N	Case=Gen|Number=Plur	11	nmod:poss	_	SpaceAfter=No
-7	,	,	PUNCT	CLB	_	3	punct	_	_
+7	,	,	PUNCT	CLB	_	8	punct	_	_
 8	čearuid	čearru	NOUN	N	Case=Gen|Number=Plur	6	conj	_	_
 9	ja	ja	CCONJ	CC	_	8	cc	_	_
 10	boazoorohagaid	boazoorohat	NOUN	N	Case=Gen|Number=Plur	6	conj	_	_
 11	ovttasbarggu	ovttasbargu	NOUN	N	Case=Acc|Number=Sing	5	obj	_	SpaceAfter=No
-12	,	,	PUNCT	CLB	_	3	punct	_	_
+12	,	,	PUNCT	CLB	_	14	punct	_	_
 13	nu	nu	ADV	Adv	_	14	advmod	_	_
 14	maiddái	maiddái	ADV	Adv	_	5	advmod	_	_
 15	ovttaskas	ovttaskas	ADJ	A	_	16	amod	_	_
@@ -1177,7 +1177,7 @@
 9	oktii	oktii	ADV	Adv	_	7	advmod	_	_
 10	nuvttá	nuvttá	ADV	Adv	_	7	advmod	_	_
 11	máidnosa	máinnus	NOUN	N	Case=Acc|Number=Sing	7	obj	_	SpaceAfter=No
-12	,	,	PUNCT	CLB	_	7	punct	_	_
+12	,	,	PUNCT	CLB	_	16	punct	_	_
 13	mii	mii	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	16	nsubj	_	_
 14	ii	ii	AUX	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	16	aux:neg	_	_
 15	leat	leat	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	16	cop	_	_
@@ -1396,8 +1396,8 @@
 4	deanus	deatnu	NOUN	N	Case=Loc|Number=Sing	1	obl	_	_
 5	dán	dát	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	6	det	_	_
 6	gease	geassi	NOUN	N	Case=Gen|Number=Sing	9	nmod:poss	_	SpaceAfter=No
-7	,	,	PUNCT	CLB	_	1	punct	_	_
-8	ja	ja	CCONJ	CC	_	1	cc	_	_
+7	,	,	PUNCT	CLB	_	9	punct	_	_
+8	ja	ja	CCONJ	CC	_	9	cc	_	_
 9	Bill-guovttos	Bill-guovttos	NOUN	N	Case=Nom|Number=Sing|PronType=Coll	12	nsubj	_	_
 10	Iŋggáin	Iŋgá	PROPN	N	Case=Com|Number=Sing	9	nmod	_	_
 11	fertiiga	fertet	AUX	V	Mood=Ind|Number=Dual|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
@@ -1520,9 +1520,9 @@
 6	gáddái	gáddi	NOUN	N	Case=Ill|Number=Sing	3	obl	_	_
 7	(	(	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
 8	riehkit	riehkki	NOUN	N	Case=Nom|Number=Plur	6	appos	_	SpaceAfter=No
-9	,	,	PUNCT	CLB	_	3	punct	_	_
+9	,	,	PUNCT	CLB	_	10	punct	_	_
 10	stárat	stárra	NOUN	N	Case=Nom|Number=Plur	8	conj	_	SpaceAfter=No
-11	)	)	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+11	)	)	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
 12	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = 1204
@@ -1771,7 +1771,7 @@
 5	ja	ja	CCONJ	CC	_	2	cc	_	_
 6	logai	lohkat	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
 7	psykologiija	psykologiija	NOUN	N	Case=Acc|Number=Sing	6	obj	_	SpaceAfter=No
-8	,	,	PUNCT	CLB	_	2	punct	_	_
+8	,	,	PUNCT	CLB	_	9	punct	_	_
 9	davviriikalašfága	davviriikalašfága	NOUN	N	Case=Acc|Number=Sing	7	conj	_	_
 10	ja	ja	CCONJ	CC	_	9	cc	_	_
 11	pedagogihka	pedagogihkka	NOUN	N	Case=Gen|Number=Sing	12	nmod:poss	_	_
@@ -1794,7 +1794,7 @@
 10	adnojuvvošii	atnit	VERB	V*	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	advcl	_	_
 11	seammá	seammá	ADV	Adv	_	12	advmod	_	_
 12	dássásažžan	dássásaš	ADJ	A	Case=Ess	10	xcomp	_	SpaceAfter=No
-13	,	,	PUNCT	CLB	_	6	punct	_	_
+13	,	,	PUNCT	CLB	_	15	punct	_	_
 14	sihke	sihke	ADV	Adv	_	15	cc:preconj	_	_
 15	duođalaččat	duođalaččat	ADV	Adv	_	10	advmod	_	_
 16	ja	ja	CCONJ	CC	_	15	cc	_	_
@@ -1914,7 +1914,7 @@
 5	nu	nu	ADV	Adv	_	6	advmod	_	_
 6	olu	olu	ADJ	A	_	7	amod	_	_
 7	doaimmain	doaibma	NOUN	N	Case=Loc|Number=Plur	3	obl	_	SpaceAfter=No
-8	,	,	PUNCT	CLB	_	3	punct	_	_
+8	,	,	PUNCT	CLB	_	12	punct	_	_
 9	sii	son	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	_
 10	leat	leat	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 11	oidnosis	oidnosis	ADV	Adv	_	12	advmod	_	_
@@ -1974,7 +1974,7 @@
 2	bijaime	bidjat	VERB	V	Mood=Ind|Number=Dual|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 3	girjái	girji	NOUN	N	Case=Ill|Number=Sing	2	obl	_	_
 4	elliid	ealli	NOUN	N	Case=Gen|Number=Plur	9	nmod:poss	_	SpaceAfter=No
-5	,	,	PUNCT	CLB	_	2	punct	_	_
+5	,	,	PUNCT	CLB	_	6	punct	_	_
 6	guliid	guolli	NOUN	N	Case=Gen|Number=Plur	4	conj	_	_
 7	ja	ja	CCONJ	CC	_	6	cc	_	_
 8	jávrriid	jávri	NOUN	N	Case=Gen|Number=Plur	4	conj	_	_
@@ -2073,8 +2073,8 @@
 3	danin_go	danin_go	SCONJ	CS	_	4	mark	_	_
 4	hállen	hállat	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	advcl	_	_
 5	sámegiela	sámegiella	NOUN	N	Case=Acc|Number=Sing	4	obj	_	SpaceAfter=No
-6	,	,	PUNCT	CLB	_	2	punct	_	_
-7	ja	ja	CCONJ	CC	_	5	cc	_	_
+6	,	,	PUNCT	CLB	_	9	punct	_	_
+7	ja	ja	CCONJ	CC	_	9	cc	_	_
 8	heajos	headju	ADJ	A	_	9	amod	_	_
 9	dárogiela	dárogiella	NOUN	N	Case=Acc|Number=Sing	5	conj	_	SpaceAfter=No
 10	.	.	PUNCT	CLB	_	2	punct	_	_
@@ -2473,7 +2473,7 @@
 3	peanna	peanna	NOUN	N	Case=Acc|Number=Sing	2	obj	_	_
 4	ja	ja	CCONJ	CC	_	3	cc	_	_
 5	bliántta	bliánta	NOUN	N	Case=Acc|Number=Sing	3	conj	_	SpaceAfter=No
-6	,	,	PUNCT	CLB	_	2	punct	_	_
+6	,	,	PUNCT	CLB	_	9	punct	_	_
 7	maid	mii	PRON	Pron	Case=Acc|Number=Plur|PronType=Rel	9	obj	_	_
 8	mun	mun	PRON	Pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
 9	dárbbašan	dárbbašit	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
@@ -2700,7 +2700,7 @@
 5	,	,	PUNCT	CLB	_	4	punct	_	_
 6	muhto	muhto	CCONJ	CC	_	4	cc	_	_
 7	eai	ii	AUX	V	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin	4	aux:neg	_	_
-8	doarvái	doarvái	ADV	Adv	_	7	advmod	_	SpaceAfter=No
+8	doarvái	doarvái	ADV	Adv	_	4	advmod	_	SpaceAfter=No
 9	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = 1324
@@ -3055,7 +3055,7 @@
 # text = Norgga delegašuvdna, várrepresideanttain, doalai sártni dievasčoahkkimii čoahkkima loahpahettiin, mas doarjjui WHO boahtteáiggi barggu dearvvasvuođain.
 1	Norgga	Norga	PROPN	N	Case=Gen|Number=Sing	2	nmod:poss	_	_
 2	delegašuvdna	delegašuvdna	NOUN	N	Case=Nom|Number=Sing	6	nsubj	_	SpaceAfter=No
-3	,	,	PUNCT	CLB	_	6	punct	_	_
+3	,	,	PUNCT	CLB	_	4	punct	_	_
 4	várrepresideanttain	várrepresideanta	NOUN	N	Case=Com|Number=Sing	2	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	CLB	_	6	punct	_	_
 6	doalai	doallat	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -3063,7 +3063,7 @@
 8	dievasčoahkkimii	dievasčoahkkin	NOUN	N	Case=Ill|Number=Sing	6	obl	_	_
 9	čoahkkima	čoahkkin	NOUN	N	Case=Gen|Number=Sing	6	obl	_	_
 10	loahpahettiin	loahpahit	VERB	V	VerbForm=Ger	6	advcl	_	SpaceAfter=No
-11	,	,	PUNCT	CLB	_	6	punct	_	_
+11	,	,	PUNCT	CLB	_	13	punct	_	_
 12	mas	mii	PRON	Pron	Case=Loc|Number=Sing|PronType=Rel	13	obl	_	_
 13	doarjjui	doarjut	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	acl:relcl	_	_
 14	WHO	WHO	NOUN	N	Case=Gen|Number=Sing	15	nmod:poss	_	_
@@ -3190,11 +3190,11 @@
 4	gáibádusat	gáibádus	NOUN	N	Case=Nom|Number=Plur	2	nsubj	_	_
 5	eaktodáhtolaš	eaktodáhtolaš	ADJ	A	_	6	amod	_	_
 6	oskui	osku	NOUN	N	Case=Ill|Number=Sing	2	obl	_	SpaceAfter=No
-7	,	,	PUNCT	CLB	_	2	punct	_	_
+7	,	,	PUNCT	CLB	_	9	punct	_	_
 8	mii	mii	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	9	nsubj	_	_
 9	guoská	guoskat	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
 10	giddodahkii	giddodat	NOUN	N	Case=Ill|Number=Sing	9	obl	_	SpaceAfter=No
-11	,	,	PUNCT	CLB	_	2	punct	_	_
+11	,	,	PUNCT	CLB	_	12	punct	_	_
 12	eanaš	eanaš	ADV	Adv	_	9	advmod	_	_
 13	vuođđuduvvon	vuođđudit	VERB	V*	Aspect=Perf|VerbForm=Part|Voice=Pass	14	acl	_	_
 14	registrerema	registreret	NOUN	V*	Case=Gen|Number=Sing	15	nmod:poss	_	_
@@ -3253,7 +3253,7 @@
 # sent_id = 1383
 # text = Oahpaheaddji, mun áiggun čuovvut du.
 1	Oahpaheaddji	oahpaheaddji	NOUN	N	Case=Nom|Number=Sing	5	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	CLB	_	5	punct	_	_
+2	,	,	PUNCT	CLB	_	3	punct	_	_
 3	mun	mun	PRON	Pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	conj	_	_
 4	áiggun	áigut	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
 5	čuovvut	čuovvut	VERB	V	VerbForm=Inf	0	root	_	_
@@ -3517,7 +3517,7 @@
 3	seamma	seammá	PRON	Pron	Case=Gen|Number=Sing|PronType=Ind	2	obl	_	_
 4	beallái	beallai	ADP	Po	_	3	case	_	_
 5	go	go	SCONJ	CS	_	9	mark	_	_
-6	&#34;	&#34;	PUNCT	PUNCT	_	2	punct	_	_
+6	&#34;	&#34;	PUNCT	PUNCT	_	9	punct	_	_
 7	láhkateavstta	láhkateaksta	NOUN	N	Case=Gen|Number=Sing	9	nmod:poss	_	_
 8	lunddolaš	lunddolaš	ADJ	A	_	9	amod	_	_
 9	lohkan	lohkan	NOUN	N	Case=Nom|Number=Sing	3	advcl	_	_
@@ -3717,9 +3717,9 @@
 6	sihke	sihke	ADV	Adv	_	10	cc:preconj	_	_
 7	ovttaskas	ovttaskas	ADJ	A	_	8	amod	_	_
 8	olbmo	olmmoš	NOUN	N	Case=Acc|Number=Sing	5	obj	_	SpaceAfter=No
-9	,	,	PUNCT	CLB	_	3	punct	_	_
+9	,	,	PUNCT	CLB	_	10	punct	_	_
 10	struktuvrralaš	struktuvrralaš	ADJ	A	_	13	amod	_	_
-11	ja	ja	CCONJ	CC	_	10	cc	_	_
+11	ja	ja	CCONJ	CC	_	12	cc	_	_
 12	unnitlogu	unnitlohku	NOUN	N	Case=Gen|Number=Sing	10	nmod:poss	_	_
 13	oaidninčiegas	oaidninčiehka	NOUN	N	Case=Loc|Number=Sing	5	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	CLB	_	3	punct	_	_
@@ -3805,8 +3805,8 @@
 6	kulturáddejumi	kulturáddejupmi	NOUN	N	Case=Gen|Number=Sing	7	nmod:poss	_	_
 7	gelbbolašvuođa	gelbbolašvuohta	NOUN	N	Case=Gen|Number=Sing	8	nmod:poss	_	_
 8	loktema	lokten	NOUN	N	Case=Acc|Number=Sing	3	conj	_	SpaceAfter=No
-9	,	,	PUNCT	CLB	_	2	punct	_	_
-10	ja	ja	CCONJ	CC	_	8	cc	_	_
+9	,	,	PUNCT	CLB	_	13	punct	_	_
+10	ja	ja	CCONJ	CC	_	13	cc	_	_
 11	sámi	sápmi	NOUN	N	Case=Gen|Number=Sing	12	nmod:poss	_	_
 12	bargiid	bargi	NOUN	N	Case=Gen|Number=Plur	13	nmod:poss	_	_
 13	bálkáheami	bálkáhit	NOUN	V*	Case=Acc|Number=Sing	3	conj	_	SpaceAfter=No
@@ -3958,11 +3958,11 @@
 4	eallu	eallu	NOUN	N	Case=Nom|Number=Sing	5	nsubj	_	_
 5	gohčoduvvui	gohčodit	VERB	V*	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 6	bálvvoseallun	bálvvoseallu	NOUN	N	Case=Ess	5	xcomp	_	SpaceAfter=No
-7	,	,	PUNCT	CLB	_	5	punct	_	_
+7	,	,	PUNCT	CLB	_	10	punct	_	_
 8	mii	mii	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	10	nsubj	_	_
 9	sáhtii	sáhttit	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
 10	jávkat	jávkat	VERB	V	VerbForm=Inf	6	acl:relcl	_	SpaceAfter=No
-11	,	,	PUNCT	CLB	_	5	punct	_	_
+11	,	,	PUNCT	CLB	_	14	punct	_	_
 12	go	go	SCONJ	CS	_	14	mark	_	_
 13	oamasteaddji	oamasteaddji	NOUN	N	Case=Nom|Number=Sing	14	nsubj	_	_
 14	jámii	jápmit	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	advcl	_	_
@@ -4078,7 +4078,7 @@
 4	golggotmánu	golggotmánnu	NOUN	N	Case=Gen|Number=Sing	5	nmod:poss	_	_
 5	vuosttaš	vuosttaš	ADJ	A	_	8	compound:nn	_	_
 6	beaivvi	beaivi	NOUN	N	Case=Gen|Number=Sing	5	conj	_	SpaceAfter=No
-7	,	,	PUNCT	CLB	_	2	punct	_	_
+7	,	,	PUNCT	CLB	_	8	punct	_	_
 8	Gáregasnjárggas	Gáregasnjárga	PROPN	N	Case=Loc|Number=Sing	2	obl	_	_
 9	nuppi	nubbi	ADJ	A	Case=Gen|Number=Sing	15	nmod:poss	_	_
 10	beaivvi	beaivi	NOUN	N	Case=Gen|Number=Sing	9	conj	_	_
@@ -4382,7 +4382,7 @@
 # sent_id = 1498
 # text = Soaŋu-girji, mas leat noveallat, bođii jagi 1971.
 1	Soaŋu-girji	soaŋu-girji	NOUN	N	Case=Nom|Number=Sing	7	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	CLB	_	7	punct	_	_
+2	,	,	PUNCT	CLB	_	4	punct	_	_
 3	mas	mii	PRON	Pron	Case=Loc|Number=Sing|PronType=Rel	4	obl	_	_
 4	leat	leat	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
 5	noveallat	novealla	NOUN	N	Case=Nom|Number=Plur	4	nsubj	_	SpaceAfter=No
@@ -4713,10 +4713,10 @@
 3	vuokkain	vuogga	NOUN	N	Case=Com|Number=Sing	2	obl	_	_
 4	ja	ja	CCONJ	CC	_	3	cc	_	_
 5	luovosfirpmiin	luovosfierbmi	NOUN	N	Case=Com|Number=Sing	3	conj	_	SpaceAfter=No
-6	,	,	PUNCT	CLB	_	2	punct	_	_
+6	,	,	PUNCT	CLB	_	7	punct	_	_
 7	namalassii	namalassii	ADV	Adv	_	10	advmod	_	_
 8	golgadagain	golgadat	NOUN	N	Case=Com|Number=Sing	3	conj	_	SpaceAfter=No
-9	,	,	PUNCT	CLB	_	2	punct	_	_
+9	,	,	PUNCT	CLB	_	10	punct	_	_
 10	bivdit	bivdit	VERB	V	VerbForm=Inf	2	parataxis	_	_
 11	miehtá	miehtá	ADP	Pr	_	12	case	_	_
 12	deanu	deatnu	NOUN	N	Case=Gen|Number=Sing	10	obl	_	SpaceAfter=No
@@ -4906,7 +4906,7 @@
 5	beaivvi	beaivi	NOUN	N	Case=Gen|Number=Sing	6	obj	_	_
 6	girddašan	girddašit	VERB	V	Aspect=Perf|VerbForm=Part	0	root	_	_
 7	amas	amas	ADJ	A	_	10	amod	_	SpaceAfter=No
-8	,	,	PUNCT	CLB	_	6	punct	_	_
+8	,	,	PUNCT	CLB	_	9	punct	_	_
 9	stuora	stuoris	ADJ	A	_	7	conj	_	_
 10	loddi	loddi	NOUN	N	Case=Nom|Number=Sing	6	nsubj	_	SpaceAfter=No
 11	.	.	PUNCT	CLB	_	6	punct	_	_
@@ -5000,11 +5000,11 @@
 11	,	,	PUNCT	CLB	_	3	punct	_	_
 12	muhto	muhto	CCONJ	CC	_	3	cc	_	_
 13	ii	ii	AUX	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	3	aux:neg	_	_
-14	fal	fal	ADV	Adv	_	13	advmod	_	_
-15	lávvordagaid	lávvordat	NOUN	N	Case=Gen|Number=Plur	13	obl	_	SpaceAfter=No
-16	,	,	PUNCT	CLB	_	3	punct	_	_
+14	fal	fal	ADV	Adv	_	3	advmod	_	_
+15	lávvordagaid	lávvordat	NOUN	N	Case=Gen|Number=Plur	3	obl	_	SpaceAfter=No
+16	,	,	PUNCT	CLB	_	17	punct	_	_
 17	sotnabeivviid	sotnabeaivi	NOUN	N	Case=Gen|Number=Plur	15	conj	_	_
-18	ja	ja	CCONJ	CC	_	17	cc	_	_
+18	ja	ja	CCONJ	CC	_	19	cc	_	_
 19	bassebeivviid	bassebeaivi	NOUN	N	Case=Gen|Number=Plur	15	conj	_	_
 20	ovddas	ovddas	ADP	Po	_	15	case	_	SpaceAfter=No
 21	.	.	PUNCT	CLB	_	3	punct	_	_
@@ -5131,7 +5131,7 @@
 11	de	de	ADV	Adv	_	12	advmod	_	_
 12	čállá	čállit	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
 13	váidaga	váidda	NOUN	N	Case=Acc|Number=Sing	12	obj	_	SpaceAfter=No
-14	,	,	PUNCT	CLB	_	5	punct	_	_
+14	,	,	PUNCT	CLB	_	15	punct	_	_
 15	dárbbu	dárbu	NOUN	N	Case=Gen|Number=Sing	12	obl	_	_
 16	mielde	mielde	ADP	Po	_	15	case	_	_
 17	dulkka	dulka	NOUN	N	Case=Gen|Number=Sing	12	obl	_	_
@@ -5173,15 +5173,15 @@
 3	sámegiela	sámegiella	NOUN	N	Case=Gen|Number=Sing	4	nmod:poss	_	_
 4	hálddašanguovlun	hálddašanguovlu	NOUN	N	Case=Ess	2	xcomp:obj	_	_
 5	Kárášjoga	Kárášjohka	PROPN	N	Case=Gen|Number=Sing	16	nmod:poss	_	SpaceAfter=No
-6	,	,	PUNCT	CLB	_	2	punct	_	_
+6	,	,	PUNCT	CLB	_	7	punct	_	_
 7	Guovdageainnu	Guovdageaidnu	PROPN	N	Case=Gen|Number=Sing	5	conj	_	SpaceAfter=No
-8	,	,	PUNCT	CLB	_	2	punct	_	_
+8	,	,	PUNCT	CLB	_	9	punct	_	_
 9	Unjárgga	Unjárga	PROPN	N	Case=Gen|Number=Sing	5	conj	_	SpaceAfter=No
-10	,	,	PUNCT	CLB	_	2	punct	_	_
+10	,	,	PUNCT	CLB	_	11	punct	_	_
 11	Deanu	Deatnu	PROPN	N	Case=Gen|Number=Sing	5	conj	_	SpaceAfter=No
-12	,	,	PUNCT	CLB	_	2	punct	_	_
+12	,	,	PUNCT	CLB	_	13	punct	_	_
 13	Porsáŋggu	Porsáŋgu	PROPN	N	Case=Gen|Number=Sing	9	conj	_	_
-14	ja	ja	CCONJ	CC	_	13	cc	_	_
+14	ja	ja	CCONJ	CC	_	15	cc	_	_
 15	Gáivuona	Gáivuotna	PROPN	N	Case=Gen|Number=Sing	5	conj	_	_
 16	gielddaid	gielda	NOUN	N	Case=Acc|Number=Plur	2	obj	_	SpaceAfter=No
 17	.	.	PUNCT	CLB	_	2	punct	_	_
@@ -5413,7 +5413,7 @@
 11	,	,	PUNCT	CLB	_	12	punct	_	_
 12	lohká	lohkat	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	nisu	nisu	NOUN	N	Case=Nom|Number=Sing	12	nsubj	_	SpaceAfter=No
-14	,	,	PUNCT	CLB	_	12	punct	_	_
+14	,	,	PUNCT	CLB	_	17	punct	_	_
 15	gii	gii	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	17	nsubj	_	_
 16	ii	ii	AUX	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	17	aux:neg	_	_
 17	hálit	háliidit	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
@@ -5882,9 +5882,9 @@
 11	lea	leat	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
 12	čuollu	čuollu	NOUN	N	Case=Nom|Number=Sing	13	nsubj	_	_
 13	guhkit	guhkki	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	7	conj	_	SpaceAfter=No
-14	,	,	PUNCT	CLB	_	7	punct	_	_
+14	,	,	PUNCT	CLB	_	15	punct	_	_
 15	golbma	golbma	NUM	Num	Case=Nom|Number=Sing|NumType=Card	13	conj	_	SpaceAfter=No
-16	,	,	PUNCT	CLB	_	7	punct	_	_
+16	,	,	PUNCT	CLB	_	17	punct	_	_
 17	njeallja	njeallja	NUM	Num	Case=Nom|Number=Sing|NumType=Card	13	conj	_	_
 18	fierbmebaji	fierbmebadji	NOUN	N	Case=Gen|Number=Sing	13	obl	_	_
 19	guhku	guhku	ADP	Po	_	18	case	_	SpaceAfter=No
@@ -7418,7 +7418,7 @@
 1	Dalle	dalle	ADV	Adv	_	2	advmod	_	_
 2	leat	leat	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	čuvges	čuovgat	ADJ	A	_	5	amod	_	SpaceAfter=No
-4	,	,	PUNCT	CLB	_	2	punct	_	_
+4	,	,	PUNCT	CLB	_	5	punct	_	_
 5	liegga	liekkas	ADJ	A	_	6	amod	_	_
 6	geasseijat	geasseidja	NOUN	N	Case=Nom|Number=Plur	2	nsubj	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	2	punct	_	_
@@ -8605,9 +8605,9 @@
 5	gáfe	gáffe	NOUN	N	Case=Acc|Number=Sing	4	obj	_	SpaceAfter=No
 6	,	,	PUNCT	CLB	_	5	punct	_	_
 7	deaja	deadja	NOUN	N	Case=Acc|Number=Sing	5	conj	_	SpaceAfter=No
-8	,	,	PUNCT	CLB	_	4	punct	_	_
+8	,	,	PUNCT	CLB	_	9	punct	_	_
 9	sávtta	sákta	NOUN	N	Case=Acc|Number=Sing	5	conj	_	_
-10	dahje	dahje	CCONJ	CC	_	9	cc	_	_
+10	dahje	dahje	CCONJ	CC	_	11	cc	_	_
 11	bruvssa	bruvsa	NOUN	N	Case=Acc|Number=Sing	5	conj	_	SpaceAfter=No
 12	.	.	PUNCT	CLB	_	4	punct	_	_
 
@@ -8619,11 +8619,11 @@
 4	guolleoivviid	guoleoaivi	NOUN	N	Case=Acc|Number=Plur	3	obj	_	SpaceAfter=No
 5	,	,	PUNCT	CLB	_	4	punct	_	_
 6	dáraid	dárra	NOUN	N	Case=Acc|Number=Plur	4	conj	_	SpaceAfter=No
-7	,	,	PUNCT	CLB	_	3	punct	_	_
+7	,	,	PUNCT	CLB	_	8	punct	_	_
 8	debbuid	deappu	NOUN	N	Case=Acc|Number=Plur	4	conj	_	SpaceAfter=No
-9	,	,	PUNCT	CLB	_	3	punct	_	_
+9	,	,	PUNCT	CLB	_	10	punct	_	_
 10	buđeittaid	buđeita	NOUN	N	Case=Acc|Number=Plur	4	conj	_	SpaceAfter=No
-11	,	,	PUNCT	CLB	_	3	punct	_	_
+11	,	,	PUNCT	CLB	_	13	punct	_	_
 12	boares	boaris	ADJ	A	_	13	amod	_	_
 13	rásiid	rássi	NOUN	N	Case=Acc|Number=Plur	4	conj	_	_
 14	ja	ja	CCONJ	CC	_	13	cc	_	_
@@ -9224,7 +9224,7 @@
 # sent_id = 2065
 # text = Dolin, ovdal soađi, olbmot lávejedje vuovdit joŋaid.
 1	Dolin	dolin	ADV	Adv	_	8	advmod	_	SpaceAfter=No
-2	,	,	PUNCT	CLB	_	8	punct	_	_
+2	,	,	PUNCT	CLB	_	1	punct	_	_
 3	ovdal	ovdal	ADP	Pr	_	1	appos	_	_
 4	soađi	soahti	NOUN	N	Case=Gen|Number=Sing	3	obl	_	SpaceAfter=No
 5	,	,	PUNCT	CLB	_	8	punct	_	_
@@ -9239,7 +9239,7 @@
 1	Oinniide	oaidnit	VERB	V	Mood=Ind|Number=Dual|Person=2|Tense=Past|VerbForm=Fin	0	root	_	_
 2	go	go	PART	Pcle	_	1	discourse	_	_
 3	Mihkkala	Mihkkal	PROPN	N	Case=Acc|Number=Sing	1	obj	_	SpaceAfter=No
-4	,	,	PUNCT	CLB	_	1	punct	_	_
+4	,	,	PUNCT	CLB	_	7	punct	_	_
 5	munno	mun	PRON	Pron	Case=Gen|Number=Dual|Person=1|PronType=Prs	6	nmod:poss	_	_
 6	nuoramus	nuorra	ADJ	A	Degree=Sup	7	amod	_	_
 7	bártni	bárdni	NOUN	N	Case=Acc|Number=Sing	3	appos	_	SpaceAfter=No
@@ -9252,7 +9252,7 @@
 3	muitalan	muitalit	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	dušše	dušše	ADV	Adv	_	5	advmod	_	_
 5	dutnje	don	PRON	Pron	Case=Ill|Number=Sing|Person=2|PronType=Prs	3	obl	_	SpaceAfter=No
-6	,	,	PUNCT	CLB	_	3	punct	_	_
+6	,	,	PUNCT	CLB	_	9	punct	_	_
 7	iežan	ieš	PRON	Pron	Case=Gen|Number[psor]=Sing|Person[psor]=1|PronType=Prs|Reflex=Yes	8	det	_	_
 8	buoremus	buorre	ADJ	A	Degree=Sup	9	amod	_	_
 9	olbmái	olmmái	NOUN	N	Case=Ill|Number=Sing	5	appos	_	SpaceAfter=No
@@ -9263,7 +9263,7 @@
 1	Ánde	Ánde	PROPN	N	Case=Nom|Number=Sing	2	nsubj	_	_
 2	orru	orrut	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	Oslos	Oslo	PROPN	N	Case=Loc|Number=Sing	2	obl	_	SpaceAfter=No
-4	,	,	PUNCT	CLB	_	2	punct	_	_
+4	,	,	PUNCT	CLB	_	6	punct	_	_
 5	Norgga	Norga	PROPN	N	Case=Gen|Number=Sing	6	nmod:poss	_	_
 6	oaivegávpogis	oaivegávpot	NOUN	N	Case=Loc|Number=Sing	3	appos	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	2	punct	_	_
@@ -9273,7 +9273,7 @@
 1	Mun	mun	PRON	Pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	hupmen	hupmat	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 3	Máhte-Iŋggáin	Máhte-Iŋgá	PROPN	N	Case=Com|Number=Sing	2	obl	_	SpaceAfter=No
-4	,	,	PUNCT	CLB	_	2	punct	_	_
+4	,	,	PUNCT	CLB	_	6	punct	_	_
 5	Niillas-Máhte	Niillas-Máhtte	PROPN	N	Case=Gen|Number=Sing	6	nmod:poss	_	_
 6	eamidiin	eamit	NOUN	N	Case=Com|Number=Sing	3	appos	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	2	punct	_	_
@@ -9282,7 +9282,7 @@
 # text = Vuolggán ihttin, bearjadaga.
 1	Vuolggán	vuolgit	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	ihttin	ihttin	ADV	Adv	_	1	advmod	_	SpaceAfter=No
-3	,	,	PUNCT	CLB	_	1	punct	_	_
+3	,	,	PUNCT	CLB	_	4	punct	_	_
 4	bearjadaga	bearjadat	NOUN	N	Case=Gen|Number=Sing	2	appos	_	SpaceAfter=No
 5	.	.	PUNCT	CLB	_	1	punct	_	_
 
@@ -9292,7 +9292,7 @@
 2	boahtá	boahtit	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	Lemet	Lemet	PROPN	N	_	2	nsubj	_	_
 4	Niillas	Niillas	PROPN	N	Case=Nom|Number=Sing	3	flat	_	SpaceAfter=No
-5	,	,	PUNCT	CLB	_	2	punct	_	_
+5	,	,	PUNCT	CLB	_	8	punct	_	_
 6	min	mun	PRON	Pron	Case=Gen|Number=Plur|Person=1|PronType=Prs	7	nmod:poss	_	_
 7	ođđa	ođas	ADJ	A	_	8	amod	_	_
 8	oahpaheaddji	oahpaheaddji	NOUN	N	Case=Nom|Number=Sing	4	appos	_	SpaceAfter=No
@@ -9302,7 +9302,7 @@
 # text = Mu viellja, Tore, sáhttá boahtit deike.
 1	Mu	mun	PRON	Pron	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nmod:poss	_	_
 2	viellja	viellja	NOUN	N	Case=Nom|Number=Sing	7	nsubj	_	SpaceAfter=No
-3	,	,	PUNCT	CLB	_	7	punct	_	_
+3	,	,	PUNCT	CLB	_	4	punct	_	_
 4	Tore	Tore	PROPN	N	Case=Nom|Number=Sing	2	appos	_	SpaceAfter=No
 5	,	,	PUNCT	CLB	_	7	punct	_	_
 6	sáhttá	sáhttit	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
@@ -9858,7 +9858,7 @@
 # sent_id = 2120
 # text = Dat, guhte vuoitá, oažžu silbabastte.
 1	Dat	dat	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	6	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	CLB	_	6	punct	_	_
+2	,	,	PUNCT	CLB	_	4	punct	_	_
 3	guhte	guhte	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	4	nsubj	_	_
 4	vuoitá	vuoitit	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	SpaceAfter=No
 5	,	,	PUNCT	CLB	_	6	punct	_	_
@@ -9882,7 +9882,7 @@
 # text = Muital eadnásat, gean lusa don manat!
 1	Muital	muitalit	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
 2	eadnásat	eadni	NOUN	N	Case=Ill|Number=Sing|Number[psor]=Sing|Person[psor]=2	1	obl	_	SpaceAfter=No
-3	,	,	PUNCT	CLB	_	1	punct	_	_
+3	,	,	PUNCT	CLB	_	7	punct	_	_
 4	gean	gii	PRON	Pron	Case=Gen|Number=Sing|PronType=Rel	7	obl	_	_
 5	lusa	lusa	ADP	Po	_	4	case	_	_
 6	don	don	PRON	Pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	_	_
@@ -9948,7 +9948,7 @@
 # sent_id = 2128
 # text = Soagŋu-girji, mas leat noveallat, bođii jagi 1971.
 1	Soagŋu-girji	soagŋu-girji	NOUN	N	Case=Nom|Number=Sing	7	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	CLB	_	7	punct	_	_
+2	,	,	PUNCT	CLB	_	1	punct	_	_
 3	mas	mii	PRON	Pron	Case=Loc|Number=Sing|PronType=Rel	4	obl	_	_
 4	leat	leat	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
 5	noveallat	novealla	NOUN	N	Case=Nom|Number=Plur	4	nsubj	_	SpaceAfter=No
@@ -11691,9 +11691,9 @@
 2	ledje	leat	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	maiddái	maiddái	ADV	Adv	_	2	advmod	_	_
 4	biktasat	bivttas	NOUN	N	Case=Nom|Number=Plur	2	nsubj	_	SpaceAfter=No
-5	,	,	PUNCT	CLB	_	2	punct	_	_
+5	,	,	PUNCT	CLB	_	6	punct	_	_
 6	biergasat	bierggas	NOUN	N	Case=Nom|Number=Plur	4	conj	_	SpaceAfter=No
-7	,	,	PUNCT	CLB	_	2	punct	_	_
+7	,	,	PUNCT	CLB	_	8	punct	_	_
 8	goikeborramušat	goikeborramuš	NOUN	N	Case=Nom|Number=Plur	4	conj	_	_
 9	jnv.	jnv	ADV	Adv	_	8	advmod	_	SpaceAfter=No
 10	.	.	PUNCT	CLB	_	2	punct	_	_
@@ -11753,11 +11753,11 @@
 6	sáltemárfi	sáltemárfi	NOUN	N	Case=Nom|Number=Sing	4	conj	_	_
 7	ja	ja	CCONJ	CC	_	6	cc	_	_
 8	majonesa	majonesa	NOUN	N	Case=Nom|Number=Sing	4	conj	_	SpaceAfter=No
-9	,	,	PUNCT	CLB	_	3	punct	_	_
+9	,	,	PUNCT	CLB	_	10	punct	_	_
 10	vuoivvasmeastu	vuoivvasmeastu	NOUN	N	Case=Nom|Number=Sing	4	conj	_	SpaceAfter=No
-11	,	,	PUNCT	CLB	_	3	punct	_	_
+11	,	,	PUNCT	CLB	_	12	punct	_	_
 12	muorjemeastu	muorjemeastu	NOUN	N	Case=Nom|Number=Sing	4	conj	_	_
-13	dahje	dahje	CCONJ	CC	_	12	cc	_	_
+13	dahje	dahje	CCONJ	CC	_	14	cc	_	_
 14	luossa	luossa	NOUN	N	Case=Nom|Number=Sing	4	conj	_	SpaceAfter=No
 15	.	.	PUNCT	CLB	_	3	punct	_	_
 
@@ -12536,7 +12536,7 @@
 2	go	go	PART	Pcle	_	1	discourse	_	_
 3	mu	mun	PRON	Pron	Case=Gen|Number=Sing|Person=1|PronType=Prs	4	nmod:poss	_	_
 4	vielja	viellja	NOUN	N	Case=Acc|Number=Sing	1	obj	_	SpaceAfter=No
-5	,	,	PUNCT	CLB	_	1	punct	_	_
+5	,	,	PUNCT	CLB	_	6	punct	_	_
 6	Heaikka	Heaika	PROPN	N	Case=Acc|Number=Sing	4	appos	_	SpaceAfter=No
 7	?	?	PUNCT	CLB	_	1	punct	_	_
 
@@ -12562,11 +12562,11 @@
 6	,	,	PUNCT	CLB	_	5	punct	_	_
 7	sihke	sihke	ADV	Adv	_	12	cc:preconj	_	_
 8	joŋat	jokŋa	NOUN	N	Case=Nom|Number=Plur	5	appos	_	SpaceAfter=No
-9	,	,	PUNCT	CLB	_	2	punct	_	_
+9	,	,	PUNCT	CLB	_	10	punct	_	_
 10	sarridat	sarrit	NOUN	N	Case=Nom|Number=Plur	8	conj	_	SpaceAfter=No
-11	,	,	PUNCT	CLB	_	2	punct	_	_
+11	,	,	PUNCT	CLB	_	12	punct	_	_
 12	čáhppesmuorjjit	čáhppesmuorji	NOUN	N	Case=Nom|Number=Plur	8	conj	_	_
-13	ja	ja	CCONJ	CC	_	12	cc	_	_
+13	ja	ja	CCONJ	CC	_	14	cc	_	_
 14	váramat	váran	NOUN	N	Case=Nom|Number=Plur	8	conj	_	SpaceAfter=No
 15	.	.	PUNCT	CLB	_	2	punct	_	_
 
@@ -12576,7 +12576,7 @@
 2	leimmet	leat	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 3	doppe	doppe	ADV	Adv	_	2	advmod	_	_
 4	bearjadaga	bearjadat	NOUN	N	Case=Gen|Number=Sing	2	obl	_	SpaceAfter=No
-5	,	,	PUNCT	CLB	_	2	punct	_	_
+5	,	,	PUNCT	CLB	_	7	punct	_	_
 6	mu	mun	PRON	Pron	Case=Gen|Number=Sing|Person=1|PronType=Prs	7	nmod:poss	_	_
 7	riegádanbeaivvi	riegádanbeaivi	NOUN	N	Case=Gen|Number=Sing	4	appos	_	SpaceAfter=No
 8	.	.	PUNCT	CLB	_	2	punct	_	_
@@ -12588,7 +12588,7 @@
 3	ohppen	oahppat	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 4	čállit	čállit	VERB	V	VerbForm=Inf	3	ccomp	_	_
 5	sámegiela	sámegiella	NOUN	N	Case=Acc|Number=Sing	4	obj	_	SpaceAfter=No
-6	,	,	PUNCT	CLB	_	3	punct	_	_
+6	,	,	PUNCT	CLB	_	8	punct	_	_
 7	iežan	ieš	PRON	Pron	Case=Gen|Number[psor]=Sing|Person[psor]=1|PronType=Prs|Reflex=Yes	8	nmod:poss	_	_
 8	eatnigiela	eatnigiella	NOUN	N	Case=Acc|Number=Sing	5	appos	_	SpaceAfter=No
 9	.	.	PUNCT	CLB	_	3	punct	_	_
@@ -12599,7 +12599,7 @@
 2	diet	diet	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	3	det	_	_
 3	Will	Will	PROPN	N	_	10	nsubj	_	_
 4	Turner	Turner	PROPN	N	Case=Nom|Number=Sing	3	flat	_	SpaceAfter=No
-5	,	,	PUNCT	CLB	_	10	punct	_	_
+5	,	,	PUNCT	CLB	_	6	punct	_	_
 6	son	son	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	appos	_	_
 7	nai	nai	PART	Pcle	_	6	discourse	_	_
 8	lea	leat	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
@@ -12777,8 +12777,8 @@
 10	dán	dát	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	11	det	_	_
 11	eatnama	eana	NOUN	N	Case=Gen|Number=Sing	8	obl	_	_
 12	nalde	nalde	ADP	Po	_	11	case	_	SpaceAfter=No
-13	,	,	PUNCT	CLB	_	2	punct	_	_
-14	ja	ja	CCONJ	CC	_	8	cc	_	_
+13	,	,	PUNCT	CLB	_	16	punct	_	_
+14	ja	ja	CCONJ	CC	_	16	cc	_	_
 15	son	son	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
 16	manai	mannat	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
 17	siidii	siida	NOUN	N	Case=Ill|Number=Sing	16	obl	_	SpaceAfter=No
@@ -12795,13 +12795,13 @@
 7	olbmot	olmmoš	NOUN	N	Case=Nom|Number=Plur	8	nsubj	_	_
 8	ohce	ohcat	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
 9	su	son	PRON	Pron	Case=Acc|Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
-10	,	,	PUNCT	CLB	_	4	punct	_	_
-11	muhto	muhto	CCONJ	CC	_	8	cc	_	_
+10	,	,	PUNCT	CLB	_	13	punct	_	_
+11	muhto	muhto	CCONJ	CC	_	13	cc	_	_
 12	eai	ii	AUX	V	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin	13	aux:neg	_	_
 13	gávdnan	gávdnat	VERB	V	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
 14	su	son	PRON	Pron	Case=Acc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
 15	eai	ii	AUX	V	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin	4	aux:neg	_	_
-16	gostege	gostege	ADV	Adv	_	15	advmod	_	SpaceAfter=No
+16	gostege	gostege	ADV	Adv	_	4	advmod	_	SpaceAfter=No
 17	,	,	PUNCT	CLB	_	4	punct	_	_
 18	eaige	ii	AUX	V	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin	19	aux:neg	_	_
 19	diehtán	diehtit	VERB	V	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
@@ -12928,11 +12928,11 @@
 11	lea	leat	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 12	čállán	čállit	VERB	V	Aspect=Perf|VerbForm=Part	4	conj	_	_
 13	diktagirjjiid	diktagirji	NOUN	N	Case=Acc|Number=Plur	12	obj	_	SpaceAfter=No
-14	,	,	PUNCT	CLB	_	4	punct	_	_
+14	,	,	PUNCT	CLB	_	15	punct	_	_
 15	noveallaid	novealla	NOUN	N	Case=Acc|Number=Plur	13	conj	_	SpaceAfter=No
-16	,	,	PUNCT	CLB	_	4	punct	_	_
+16	,	,	PUNCT	CLB	_	17	punct	_	_
 17	románaid	romána	NOUN	N	Case=Acc|Number=Plur	13	conj	_	_
-18	ja	ja	CCONJ	CC	_	17	cc	_	_
+18	ja	ja	CCONJ	CC	_	19	cc	_	_
 19	gullugovaid	gullugovva	NOUN	N	Case=Acc|Number=Plur	13	conj	_	_
 20	sihke	sihke	ADV	Adv	_	21	cc:preconj	_	_
 21	mánáide	mánná	NOUN	N	Case=Ill|Number=Plur	12	obl	_	_
@@ -12945,11 +12945,11 @@
 1	Mon	mun	PRON	Pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	oainnán	oaidnit	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	fierpmi	fierbmi	NOUN	N	Case=Acc|Number=Sing	2	obj	_	SpaceAfter=No
-4	,	,	PUNCT	CLB	_	2	punct	_	_
+4	,	,	PUNCT	CLB	_	6	punct	_	_
 5	su	son	PRON	Pron	Case=Gen|Number=Sing|Person=3|PronType=Prs	6	nmod:poss	_	_
 6	mearkka	mearka	NOUN	N	Case=Acc|Number=Sing	3	appos	_	SpaceAfter=No
-7	,	,	PUNCT	CLB	_	2	punct	_	_
-8	ja	ja	CCONJ	CC	_	2	cc	_	_
+7	,	,	PUNCT	CLB	_	9	punct	_	_
+8	ja	ja	CCONJ	CC	_	9	cc	_	_
 9	dieđán	diehtit	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
 10	ahte	ahte	SCONJ	CS	_	13	mark	_	_
 11	Spider-Man	Spider-Man	PROPN	N	Case=Nom|Number=Sing	13	nsubj	_	_
@@ -13090,8 +13090,8 @@
 6	geažis	geahči	NOUN	N	Case=Loc|Number=Sing	7	obl	_	_
 7	orro	orrut	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	_
 8	ieža	ieš	PRON	Pron	Case=Nom|Number=Plur|PronType=Prs|Reflex=Yes	7	nsubj	_	SpaceAfter=No
-9	,	,	PUNCT	CLB	_	2	punct	_	_
-10	ja	ja	CCONJ	CC	_	7	cc	_	_
+9	,	,	PUNCT	CLB	_	13	punct	_	_
+10	ja	ja	CCONJ	CC	_	13	cc	_	_
 11	nuppi	nubbi	PRON	Pron	Case=Loc|Number=Sing|PronType=Ind	12	amod	_	_
 12	geažis	geahči	NOUN	N	Case=Loc|Number=Sing	13	obl	_	_
 13	ledje	leat	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	_
@@ -13108,8 +13108,8 @@
 6	bohcco	boazu	NOUN	N	Case=Gen|Number=Sing	2	nsubj	_	_
 7	maid	mii	PRON	Pron	Case=Acc|Number=Sing|PronType=Rel	6	obj	_	_
 8	guođohedje	guođohit	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No
-9	,	,	PUNCT	CLB	_	2	punct	_	_
-10	muhto	muhto	CCONJ	CC	_	6	cc	_	_
+9	,	,	PUNCT	CLB	_	12	punct	_	_
+10	muhto	muhto	CCONJ	CC	_	12	cc	_	_
 11	dat	dat	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	12	nsubj	_	_
 12	jávke	jávkat	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	_
 13	loahpas	loahpas	ADV	Adv	_	12	advmod	_	_
@@ -13130,7 +13130,7 @@
 7	goddá	goddit	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 8	olbmo	olmmoš	NOUN	N	Case=Acc|Number=Sing	7	obj	_	SpaceAfter=No
 9	,	,	PUNCT	CLB	_	13	punct	_	_
-10	ja	ja	CCONJ	CC	_	7	cc	_	_
+10	ja	ja	CCONJ	CC	_	13	cc	_	_
 11	sáhttá	sáhttit	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
 12	vel	vel	ADV	Adv	_	13	advmod	_	_
 13	borratge	borrat	VERB	V	VerbForm=Inf	0	root	_	_
@@ -13184,10 +13184,10 @@
 9	son	son	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 10	vuvddii	vuovdit	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
 11	Lulli-Norgii	Lulli-Norga	PROPN	N	Case=Ill|Number=Sing	10	obl	_	SpaceAfter=No
-12	,	,	PUNCT	CLB	_	6	punct	_	_
+12	,	,	PUNCT	CLB	_	14	punct	_	_
 13	sihke	sihke	ADV	Adv	_	14	cc:preconj	_	_
 14	museaide	musea	NOUN	N	Case=Ill|Number=Plur	10	obl	_	_
-15	ja	ja	CCONJ	CC	_	14	cc	_	_
+15	ja	ja	CCONJ	CC	_	16	cc	_	_
 16	olbmuide	olmmoš	NOUN	N	Case=Ill|Number=Plur	10	obl	_	SpaceAfter=No
 17	,	,	PUNCT	CLB	_	6	punct	_	_
 18	de	de	ADV	Adv	_	19	advmod	_	_
@@ -13211,13 +13211,13 @@
 9	maid	mii	PRON	Pron	Case=Acc|Number=Plur|PronType=Rel	11	obj	_	_
 10	ieža	ieš	PRON	Pron	Case=Nom|Number=Plur|PronType=Prs|Reflex=Yes	11	nsubj	_	_
 11	atne	atnit	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	acl:relcl	_	SpaceAfter=No
-12	,	,	PUNCT	CLB	_	2	punct	_	_
+12	,	,	PUNCT	CLB	_	13	punct	_	_
 13	muhto	muhto	CCONJ	CC	_	11	cc	_	_
 14	ollu	ollu	ADV	Adv	_	16	advmod	_	_
 15	sii	son	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	_
 16	vuvde	vuovdit	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	_
 17	márkaniin	márkan	NOUN	N	Case=Loc|Number=Plur	16	obl	_	SpaceAfter=No
-18	,	,	PUNCT	CLB	_	2	punct	_	_
+18	,	,	PUNCT	CLB	_	20	punct	_	_
 19	sihke	sihke	ADV	Adv	_	20	cc:preconj	_	_
 20	Bossegohpis	Bossogohppi	PROPN	N	Case=Loc|Number=Sing	16	obl	_	_
 21	ja	ja	CCONJ	CC	_	20	cc	_	_
@@ -13241,7 +13241,7 @@
 # sent_id = 2480
 # text = Soagŋu-girji, mas leat noveallat, bođii jagi 1971, ja lei vuosttaš sámegiel girji maid nisu lea čállán.
 1	Soagŋu-girji	soagŋu-girji	NOUN	N	Case=Nom|Number=Sing	7	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	CLB	_	7	punct	_	_
+2	,	,	PUNCT	CLB	_	4	punct	_	_
 3	mas	mii	PRON	Pron	Case=Loc|Number=Sing|PronType=Rel	4	obl	_	_
 4	leat	leat	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
 5	noveallat	novealla	NOUN	N	Case=Nom|Number=Plur	4	nsubj	_	SpaceAfter=No
@@ -13273,7 +13273,7 @@
 8	leat	leat	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
 9	nu	nu	ADV	Adv	_	10	advmod	_	_
 10	jierbmái	jierbmái	ADJ	A	Case=Nom|Number=Sing	8	xcomp	_	SpaceAfter=No
-11	,	,	PUNCT	CLB	_	4	punct	_	_
+11	,	,	PUNCT	CLB	_	12	punct	_	_
 12	nu	nu	ADV	Adv	_	8	advmod	_	_
 13	ahte	ahte	SCONJ	CS	_	16	mark	_	_
 14	olmmoš	olmmoš	NOUN	N	Case=Nom|Number=Sing	16	nsubj	_	_
@@ -13324,7 +13324,7 @@
 3	skuvllas	skuvla	NOUN	N	Case=Loc|Number=Sing	2	obl	_	SpaceAfter=No
 4	,	,	PUNCT	CLB	_	2	punct	_	_
 5	iige	ii	AUX	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	2	aux:neg	_	_
-6	ruovttus	ruovttus	ADV	Adv	_	5	advmod	_	SpaceAfter=No
+6	ruovttus	ruovttus	ADV	Adv	_	2	advmod	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = 2486
@@ -13334,7 +13334,7 @@
 3	oastte	oastit	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	báiddi	báidi	NOUN	N	Case=Acc|Number=Sing	3	obj	_	_
 5	inge	ii	AUX	V	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin	3	aux:neg	_	_
-6	buvssaid	buvssat	NOUN	N	Case=Acc|Number=Plur	5	obj	_	SpaceAfter=No
+6	buvssaid	buvssat	NOUN	N	Case=Acc|Number=Plur	3	obj	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = 2487
@@ -13344,7 +13344,7 @@
 3	leat	leat	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	biila	biila	NOUN	N	Case=Nom|Number=Sing	3	nsubj	_	_
 5	iige	ii	AUX	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	3	aux:neg	_	_
-6	mopeda	mopeda	NOUN	N	Case=Nom|Number=Sing	5	nsubj	_	SpaceAfter=No
+6	mopeda	mopeda	NOUN	N	Case=Nom|Number=Sing	3	nsubj	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = 2488
@@ -13508,7 +13508,7 @@
 # sent_id = 2505
 # text = Buohkat, geat áigot bileahtaid oastit, fertejit boahtit deike.
 1	Buohkat	buohkat	PRON	Pron	Case=Nom|Number=Plur|PronType=Ind	9	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	CLB	_	9	punct	_	_
+2	,	,	PUNCT	CLB	_	6	punct	_	_
 3	geat	gii	PRON	Pron	Case=Nom|Number=Plur|PronType=Rel	6	nsubj	_	_
 4	áigot	áigut	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 5	bileahtaid	bileahtta	NOUN	N	Case=Acc|Number=Plur	6	obj	_	_
@@ -13565,7 +13565,7 @@
 # sent_id = 2511
 # text = Ánne, geasa Mihkkal lei liikostan, lei hui čeavlái.
 1	Ánne	Ánne	PROPN	N	Case=Nom|Number=Sing	10	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	CLB	_	10	punct	_	_
+2	,	,	PUNCT	CLB	_	6	punct	_	_
 3	geasa	gii	PRON	Pron	Case=Ill|Number=Sing|PronType=Rel	6	obl	_	_
 4	Mihkkal	Mihkkal	PROPN	N	Case=Nom|Number=Sing	6	nsubj	_	_
 5	lei	leat	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
@@ -13579,7 +13579,7 @@
 # sent_id = 2512
 # text = Olbmot, geat dávjá vihket, leat sávrrit.
 1	Olbmot	olmmoš	NOUN	N	Case=Nom|Number=Plur	8	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	CLB	_	8	punct	_	_
+2	,	,	PUNCT	CLB	_	5	punct	_	_
 3	geat	gii	PRON	Pron	Case=Nom|Number=Plur|PronType=Rel	5	nsubj	_	_
 4	dávjá	dávjá	ADV	Adv	_	5	advmod	_	_
 5	vihket	viehkat	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	SpaceAfter=No
@@ -14556,8 +14556,8 @@
 3	maid	mii	PRON	Pron	Case=Acc|Number=Sing|PronType=Rel	5	obj	_	_
 4	niegut	niehku	NOUN	N	Case=Nom|Number=Plur	5	nsubj	_	_
 5	dieđihedje	dieđihit	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	SpaceAfter=No
-6	,	,	PUNCT	CLB	_	2	punct	_	_
-7	ja	ja	CCONJ	CC	_	5	cc	_	_
+6	,	,	PUNCT	CLB	_	12	punct	_	_
+7	ja	ja	CCONJ	CC	_	12	cc	_	_
 8	dan_dihte	dan_dihte	ADV	Adv	_	12	advmod	_	_
 9	sii	son	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	_
 10	ledje	leat	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
@@ -19207,7 +19207,7 @@
 11	,	,	PUNCT	CLB	_	12	punct	_	_
 12	lohká	lohkat	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	nisu	nisu	NOUN	N	Case=Nom|Number=Sing	12	nsubj	_	SpaceAfter=No
-14	,	,	PUNCT	CLB	_	12	punct	_	_
+14	,	,	PUNCT	CLB	_	17	punct	_	_
 15	gii	gii	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	17	nsubj	_	_
 16	ii	ii	AUX	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	17	aux:neg	_	_
 17	hálit	háliidit	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
@@ -19222,11 +19222,11 @@
 3	mielkki	mielki	NOUN	N	Case=Acc|Number=Sing	2	obj	_	SpaceAfter=No
 4	,	,	PUNCT	CLB	_	3	punct	_	_
 5	vuollaga	vuola	NOUN	N	Case=Acc|Number=Sing	3	conj	_	SpaceAfter=No
-6	,	,	PUNCT	CLB	_	2	punct	_	_
+6	,	,	PUNCT	CLB	_	7	punct	_	_
 7	vuoja	vuodja	NOUN	N	Case=Acc|Number=Sing	3	conj	_	SpaceAfter=No
-8	,	,	PUNCT	CLB	_	2	punct	_	_
+8	,	,	PUNCT	CLB	_	9	punct	_	_
 9	láibbi	láibi	NOUN	N	Case=Acc|Number=Sing	3	conj	_	_
-10	ja	ja	CCONJ	CC	_	9	cc	_	_
+10	ja	ja	CCONJ	CC	_	11	cc	_	_
 11	viinni	viidni	NOUN	N	Case=Acc|Number=Sing	3	conj	_	SpaceAfter=No
 12	.	.	PUNCT	CLB	_	2	punct	_	_
 
@@ -19368,7 +19368,7 @@
 5	áiggošin	áigut	AUX	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
 6	leat	leat	VERB	V	VerbForm=Inf	3	ccomp	_	_
 7	bahánihkkán	bahánihkkán	ADJ	A	Case=Nom|Number=Sing	6	xcomp	_	SpaceAfter=No
-8	,	,	PUNCT	CLB	_	3	punct	_	_
+8	,	,	PUNCT	CLB	_	9	punct	_	_
 9	váttis	váttis	ADJ	A	Case=Nom|Number=Sing	7	xcomp	_	_
 10	dahje	dahje	CCONJ	CC	_	9	cc	_	_
 11	fuikolas	fuoikut	ADJ	V*	Case=Nom|Number=Sing	7	xcomp	_	SpaceAfter=No
@@ -19571,7 +19571,7 @@
 1	Boasii	Boas	PROPN	N	Case=Ill|Number=Sing	2	obl	_	_
 2	riegádii	riegádit	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	Obed	Obed	PROPN	N	Case=Nom|Number=Sing	2	nsubj	_	SpaceAfter=No
-4	,	,	PUNCT	CLB	_	2	punct	_	_
+4	,	,	PUNCT	CLB	_	8	punct	_	_
 5	gean	gii	PRON	Pron	Case=Gen|Number=Sing|PronType=Rel	6	nmod:poss	_	_
 6	eadni	eadni	NOUN	N	Case=Nom|Number=Sing	8	nsubj	_	_
 7	lei	leat	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
@@ -19580,12 +19580,12 @@
 10	Obedii	Obed	PROPN	N	Case=Ill|Number=Sing	11	obl	_	_
 11	riegádii	riegádit	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	_
 12	Isai	Isai	PROPN	N	Case=Nom|Number=Sing	11	nsubj	_	SpaceAfter=No
-13	,	,	PUNCT	CLB	_	2	punct	_	_
-14	ja	ja	CCONJ	CC	_	11	cc	_	_
+13	,	,	PUNCT	CLB	_	16	punct	_	_
+14	ja	ja	CCONJ	CC	_	16	cc	_	_
 15	Isajii	Isaj	PROPN	N	Case=Ill|Number=Sing	16	obl	_	_
 16	riegádii	riegádit	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	_
 17	Dávvet	Dávvet	PROPN	N	Case=Nom|Number=Sing	16	nsubj	_	SpaceAfter=No
-18	,	,	PUNCT	CLB	_	2	punct	_	_
+18	,	,	PUNCT	CLB	_	19	punct	_	_
 19	gonagas	gonagas	NOUN	N	Case=Nom|Number=Sing	17	appos	_	SpaceAfter=No
 20	.	.	PUNCT	CLB	_	2	punct	_	_
 
@@ -19836,7 +19836,7 @@
 # sent_id = 3182
 # text = Dat, gii ákkastallá dan ovddas, dovdá ášši.
 1	Dat	dat	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	8	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	CLB	_	8	punct	_	_
+2	,	,	PUNCT	CLB	_	4	punct	_	_
 3	gii	gii	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	4	nsubj	_	_
 4	ákkastallá	ákkastallat	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
 5	dan	dat	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	4	obl	_	_
@@ -20298,7 +20298,7 @@
 5	beaivvi	beaivi	NOUN	N	Case=Gen|Number=Sing	6	obl	_	_
 6	girddašan	girddašit	VERB	V	Aspect=Perf|VerbForm=Part	0	root	_	_
 7	amas	amas	ADJ	A	_	10	amod	_	SpaceAfter=No
-8	,	,	PUNCT	CLB	_	6	punct	_	_
+8	,	,	PUNCT	CLB	_	9	punct	_	_
 9	stuora	stuoris	ADJ	A	_	7	conj	_	_
 10	loddi	loddi	NOUN	N	Case=Nom|Number=Sing	6	nsubj	_	SpaceAfter=No
 11	.	.	PUNCT	CLB	_	6	punct	_	_
@@ -20372,11 +20372,11 @@
 1	Fiskes	fiskat	ADJ	A	_	11	amod	_	SpaceAfter=No
 2	,	,	PUNCT	CLB	_	1	punct	_	_
 3	rukses	ruoksat	ADJ	A	_	1	conj	_	SpaceAfter=No
-4	,	,	PUNCT	CLB	_	11	punct	_	_
+4	,	,	PUNCT	CLB	_	5	punct	_	_
 5	alit	alit	ADJ	A	_	1	conj	_	SpaceAfter=No
-6	,	,	PUNCT	CLB	_	11	punct	_	_
+6	,	,	PUNCT	CLB	_	7	punct	_	_
 7	ruoná	ruoná	ADJ	A	_	1	conj	_	_
-8	ja	ja	CCONJ	CC	_	7	cc	_	_
+8	ja	ja	CCONJ	CC	_	10	cc	_	_
 9	muđui	muđui	ADV	Adv	_	10	advmod	_	_
 10	buotlágaš	buotlágaš	ADJ	A	_	1	conj	_	_
 11	ivnnit	ivdni	NOUN	N	Case=Nom|Number=Plur	0	root	_	SpaceAfter=No
@@ -20471,7 +20471,7 @@
 17	buot	buot	PRON	Pron	PronType=Ind	18	amod	_	_
 18	muoraid	muorra	NOUN	N	Case=Acc|Number=Plur	19	obj	_	_
 19	čuollat	čuollat	VERB	V	VerbForm=Inf	12	ccomp	_	SpaceAfter=No
-20	,	,	PUNCT	CLB	_	3	punct	_	_
+20	,	,	PUNCT	CLB	_	25	punct	_	_
 21	go	go	SCONJ	CS	_	25	mark	_	_
 22	vuovdi	vuovdi	NOUN	N	Case=Nom|Number=Sing	25	nsubj	_	_
 23	lea	leat	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
@@ -20521,7 +20521,7 @@
 # sent_id = 3251
 # text = Giellatekno, Romssa Universitehta sámi giellateknologiija guovddáš, álggahuvvui 1.8.2001 prošeaktan ráhkadit sámegiela grammatihkalaš analysa.
 1	Giellatekno	Giellatekno	PROPN	N	Case=Nom|Number=Sing	9	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	CLB	_	9	punct	_	_
+2	,	,	PUNCT	CLB	_	7	punct	_	_
 3	Romssa	Romsa	PROPN	N	Case=Gen|Number=Sing	4	nmod:poss	_	_
 4	Universitehta	universitehta	NOUN	N	Case=Gen|Number=Sing	5	nmod:poss	_	_
 5	sámi	sápmi	NOUN	N	Case=Gen|Number=Sing	6	nmod:poss	_	_
@@ -20554,7 +20554,7 @@
 3	Sámediggi	Sámediggi	PROPN	N	Case=Nom|Number=Sing	4	nsubj	_	_
 4	álggahii	álggahit	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	Divvuma	Divvun	PROPN	N	Case=Acc|Number=Sing	4	obj	_	SpaceAfter=No
-6	,	,	PUNCT	CLB	_	4	punct	_	_
+6	,	,	PUNCT	CLB	_	9	punct	_	_
 7	mii	mii	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	9	nsubj	_	_
 8	lei	leat	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
 9	prošeakta	prošeakta	NOUN	N	Case=Nom|Number=Sing	5	acl:relcl	_	_
@@ -20605,8 +20605,8 @@
 10	ráhkadan	ráhkadit	VERB	V	Aspect=Perf|VerbForm=Part	3	parataxis	_	_
 11	lullisámi	lullisápmi	NOUN	N	Case=Gen|Number=Sing	12	nmod:poss	_	_
 12	veršuvnna	veršuvdna	NOUN	N	Case=Acc|Number=Sing	10	obj	_	SpaceAfter=No
-13	,	,	PUNCT	CLB	_	3	punct	_	_
-14	ja	ja	CCONJ	CC	_	10	cc	_	_
+13	,	,	PUNCT	CLB	_	18	punct	_	_
+14	ja	ja	CCONJ	CC	_	18	cc	_	_
 15	dán	dát	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	16	det	_	_
 16	áigge	áigi	NOUN	N	Case=Gen|Number=Sing	18	obl	_	_
 17	mis	mun	PRON	Pron	Case=Loc|Number=Plur|Person=1|PronType=Prs	18	obl	_	_
@@ -20658,12 +20658,12 @@
 11	eaige	ii	AUX	V	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin	12	aux:neg	_	_
 12	vuođđuduvvon	vuođđudit	VERB	V*	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	9	ccomp	_	_
 13	statistihkkii	statistihkka	NOUN	N	Case=Ill|Number=Sing	12	obl	_	SpaceAfter=No
-14	,	,	PUNCT	CLB	_	4	punct	_	_
-15	ja	ja	CCONJ	CC	_	12	cc	_	_
+14	,	,	PUNCT	CLB	_	16	punct	_	_
+15	ja	ja	CCONJ	CC	_	16	cc	_	_
 16	vuođđun	vuođđu	NOUN	N	Case=Ess	12	xcomp	_	_
 17	leat	leat	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
 18	sátnehámit	sátnehápmi	NOUN	N	Case=Nom|Number=Plur	17	nsubj	_	_
-19	–	–	PUNCT	PUNCT	_	4	punct	_	_
+19	–	–	PUNCT	PUNCT	_	21	punct	_	_
 20	mii	mun	PRON	Pron	Case=Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	_
 21	hukset	hukset	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	17	parataxis	_	_
 22	analysa	analysa	NOUN	N	Case=Acc|Number=Sing	21	obj	_	_
@@ -20687,8 +20687,8 @@
 12	lingvisttalaš	lingvisttalaš	ADJ	A	_	13	amod	_	_
 13	alla	allat	ADJ	A	_	14	amod	_	_
 14	dásis	dássi	NOUN	N	Case=Loc|Number=Sing	11	obl	_	SpaceAfter=No
-15	,	,	PUNCT	CLB	_	5	punct	_	_
-16	ja	ja	CCONJ	CC	_	11	cc	_	_
+15	,	,	PUNCT	CLB	_	19	punct	_	_
+16	ja	ja	CCONJ	CC	_	19	cc	_	_
 17	sáhttet	sáhttit	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
 18	leat	leat	AUX	V	VerbForm=Inf	19	cop	_	_
 19	vuođđun	vuođđu	NOUN	N	Case=Ess	5	parataxis	_	_
@@ -20705,7 +20705,7 @@
 2	go	go	SCONJ	CS	_	9	mark	_	_
 3	Bienne	Bienne	PROPN	N	_	9	nsubj	_	_
 4	Káre-Ánne	Káre-Ánne	PROPN	N	Case=Nom|Number=Sing	3	flat	_	SpaceAfter=No
-5	,	,	PUNCT	CLB	_	9	punct	_	_
+5	,	,	PUNCT	CLB	_	7	punct	_	_
 6	skuvlla	skuvla	NOUN	N	Case=Gen|Number=Sing	7	nmod:poss	_	_
 7	bassi	bassi	NOUN	N	Case=Nom|Number=Sing	4	appos	_	SpaceAfter=No
 8	,	,	PUNCT	CLB	_	9	punct	_	_
@@ -20765,12 +20765,12 @@
 7	sáhttá	sáhttit	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 8	váldit	váldit	VERB	V	VerbForm=Inf	5	acl:relcl	_	_
 9	vuođu	vuođđu	NOUN	N	Case=Acc|Number=Sing	8	obj	_	SpaceAfter=No
-10	,	,	PUNCT	CLB	_	3	punct	_	_
-11	ja	ja	CCONJ	CC	_	8	cc	_	_
+10	,	,	PUNCT	CLB	_	12	punct	_	_
+11	ja	ja	CCONJ	CC	_	12	cc	_	_
 12	gávnnai	gávdnat	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	parataxis	_	_
 13	doaibmevaš	doaibmevaš	ADJ	A	_	14	amod	_	_
 14	ovdagovaid	ovdagovva	NOUN	N	Case=Acc|Number=Plur	12	obj	_	SpaceAfter=No
-15	,	,	PUNCT	CLB	_	3	punct	_	_
+15	,	,	PUNCT	CLB	_	16	punct	_	_
 16	ovdamearkka	ovdamearka	NOUN	N	Case=Gen|Number=Sing	12	obl	_	_
 17	dihte	dihte	ADP	Po	_	16	case	_	_
 18	ruoŧasuoma	ruoŧasuopma	NOUN	N	Case=Gen|Number=Sing	19	nmod:poss	_	_
@@ -20860,7 +20860,7 @@
 7	positiivvalaš	positiivvalaš	ADJ	A	_	8	amod	_	_
 8	rádjerasttildeaddji	rádjerasttildeaddji	ADJ	A	_	9	amod	_	_
 9	boazodoalu	boazodoallu	NOUN	N	Case=Acc|Number=Sing	5	obj	_	SpaceAfter=No
-10	,	,	PUNCT	CLB	_	2	punct	_	_
+10	,	,	PUNCT	CLB	_	11	punct	_	_
 11	man	mii	PRON	Pron	Case=Gen|Number=Sing|PronType=Rel	18	obl	_	_
 12	vuođul	vuođul	ADP	Po	_	11	case	_	_
 13	sámi	sápmi	NOUN	N	Case=Gen|Number=Sing	14	nmod:poss	_	_
@@ -20892,8 +20892,8 @@
 7	Ruoŧa	Ruoŧŧa	PROPN	N	Case=Gen|Number=Sing	8	nmod:poss	_	_
 8	ođđa	ođas	ADJ	A	_	9	amod	_	_
 9	boazodoallolága	boazodoalloláhka	NOUN	N	Case=Acc|Number=Sing	5	obj	_	SpaceAfter=No
-10	,	,	PUNCT	CLB	_	5	punct	_	_
-11	ja	ja	CCONJ	CC	_	9	cc	_	_
+10	,	,	PUNCT	CLB	_	12	punct	_	_
+11	ja	ja	CCONJ	CC	_	12	cc	_	_
 12	boazodoallolágaid	boazodoalloláhka	NOUN	N	Case=Acc|Number=Plur	9	conj	_	_
 13	maiguin	mii	PRON	Pron	Case=Com|Number=Plur|PronType=Rel	14	obl	_	_
 14	barget	bargat	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
@@ -20918,10 +20918,10 @@
 1	De	de	ADV	Adv	_	2	advmod	_	_
 2	bođii	boahtit	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	oahpaheaddji	oahpaheaddji	NOUN	N	Case=Nom|Number=Sing	2	nsubj	_	SpaceAfter=No
-4	,	,	PUNCT	CLB	_	2	punct	_	_
+4	,	,	PUNCT	CLB	_	6	punct	_	_
 5	muhtin	muhtin	PRON	Pron	PronType=Ind	6	amod	_	_
 6	lullirivgu	lullirivgu	NOUN	N	Case=Nom|Number=Sing	3	appos	_	SpaceAfter=No
-7	,	,	PUNCT	CLB	_	2	punct	_	_
+7	,	,	PUNCT	CLB	_	8	punct	_	_
 8	dárkkistit	dárkkistit	VERB	V	VerbForm=Inf	2	parataxis	_	_
 9	basadeami	basadit	NOUN	V*	Case=Acc|Number=Sing	8	obj	_	SpaceAfter=No
 10	.	.	PUNCT	CLB	_	2	punct	_	_
@@ -20992,10 +20992,10 @@
 # sent_id = 3289
 # text = Báhpaeamit, Margrethe Wiig, gii lei gasku giellamoivvi, ráhkadii iežas sárgumiiguin sámegiela Áppesa, mii lei stuorra ávkin sámegiela oahpahusas.
 1	Báhpaeamit	báhpaeamit	NOUN	N	Case=Nom|Number=Sing	11	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	CLB	_	11	punct	_	_
+2	,	,	PUNCT	CLB	_	3	punct	_	_
 3	Margrethe	Margrethe	PROPN	N	_	1	appos	_	_
 4	Wiig	Wiig	PROPN	N	Case=Nom|Number=Sing	3	flat	_	SpaceAfter=No
-5	,	,	PUNCT	CLB	_	11	punct	_	_
+5	,	,	PUNCT	CLB	_	7	punct	_	_
 6	gii	gii	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	7	nsubj	_	_
 7	lei	leat	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
 8	gasku	gasku	ADP	Pr	_	9	case	_	_
@@ -21006,7 +21006,7 @@
 13	sárgumiiguin	sárgun	NOUN	N	Case=Com|Number=Plur	11	obl	_	_
 14	sámegiela	sámegiella	NOUN	N	Case=Gen|Number=Sing	15	nmod:poss	_	_
 15	Áppesa	áppes	NOUN	N	Case=Acc|Number=Sing	11	obj	_	SpaceAfter=No
-16	,	,	PUNCT	CLB	_	11	punct	_	_
+16	,	,	PUNCT	CLB	_	20	punct	_	_
 17	mii	mii	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	20	nsubj	_	_
 18	lei	leat	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	cop	_	_
 19	stuorra	stuoris	ADJ	A	_	20	amod	_	_
@@ -21021,7 +21021,7 @@
 2	nammadii	nammadit	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	Eanandoallodepartemeanta	Eanandoallodepartemeanta	PROPN	N	Case=Nom|Number=Sing	2	nsubj	_	_
 4	lávdegotti	lávdegoddi	NOUN	N	Case=Acc|Number=Sing	2	obj	_	SpaceAfter=No
-5	,	,	PUNCT	CLB	_	2	punct	_	_
+5	,	,	PUNCT	CLB	_	8	punct	_	_
 6	mii	mii	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	8	nsubj	_	_
 7	galggai	galgat	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
 8	ráhkadit	ráhkadit	VERB	V	VerbForm=Inf	4	acl:relcl	_	_
@@ -21041,7 +21041,7 @@
 5	sámi	sápmi	NOUN	N	Case=Gen|Number=Sing	6	nmod:poss	_	_
 6	váhnemat	váhnen	NOUN	N	Case=Nom|Number=Plur	3	nsubj	_	_
 7	mánáidgárddi	mánáidgárdi	NOUN	N	Case=Acc|Number=Sing	3	obj	_	SpaceAfter=No
-8	,	,	PUNCT	CLB	_	3	punct	_	_
+8	,	,	PUNCT	CLB	_	11	punct	_	_
 9	mii	mii	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	11	nsubj	_	_
 10	sáhtii	sáhttit	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
 11	oahpahit	oahpahit	VERB	V	VerbForm=Inf	7	acl:relcl	_	_
@@ -21058,7 +21058,7 @@
 4	juolludan	juolludit	VERB	V	Aspect=Perf|VerbForm=Part	0	root	_	_
 5	vel	vel	ADV	Adv	_	4	advmod	_	_
 6	mátke-	mátki	NOUN	N	_	13	compound	_	SpaceAfter=No
-7	,	,	PUNCT	CLB	_	4	punct	_	_
+7	,	,	PUNCT	CLB	_	8	punct	_	_
 8	lohkan-	lohkan	NOUN	N	_	6	conj	_	_
 9	ja	ja	CCONJ	CC	_	8	cc	_	_
 10	ávnnasstipeanddaid	ávnnasstipeanda	NOUN	N	Case=Acc|Number=Plur	4	obj	_	SpaceAfter=No
@@ -21085,11 +21085,11 @@
 8	Sara	Sara	PROPN	N	_	3	nsubj	_	_
 9	Margrethe	Margrethe	PROPN	N	_	8	flat	_	_
 10	Oskal	Oskal	PROPN	N	Case=Nom|Number=Sing	9	flat	_	SpaceAfter=No
-11	,	,	PUNCT	CLB	_	3	punct	_	_
+11	,	,	PUNCT	CLB	_	13	punct	_	_
 12	govvadáiddár	govvadáiddár	NOUN	N	Case=Nom|Number=Sing	13	compound:nn	_	_
 13	Matti	Matti	PROPN	N	_	10	conj	_	_
 14	Aikio	Aikio	PROPN	N	Case=Nom|Number=Sing	13	flat	_	SpaceAfter=No
-15	,	,	PUNCT	CLB	_	3	punct	_	_
+15	,	,	PUNCT	CLB	_	17	punct	_	_
 16	hábmejeaddji	hábmet	NOUN	V*	Case=Nom|Number=Sing	17	compound:nn	_	_
 17	Anne	Anne	PROPN	N	_	10	conj	_	_
 18	Berit	Berit	PROPN	N	_	17	flat	_	_
@@ -21585,7 +21585,7 @@
 9	lea	leat	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
 10	su	son	PRON	Pron	Case=Gen|Number=Sing|Person=3|PronType=Prs	9	obl	_	_
 11	duogábealde	duogábealde	ADP	Po	_	10	case	_	SpaceAfter=No
-12	,	,	PUNCT	CLB	_	2	punct	_	_
+12	,	,	PUNCT	CLB	_	13	punct	_	_
 13	nu	nu	ADV	Adv	_	9	advmod	_	_
 14	ahte	ahte	SCONJ	CS	_	16	mark	_	_
 15	son	son	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
@@ -21622,7 +21622,7 @@
 # sent_id = 3340
 # text = Mii, NSR-joavku, eat dovdda Ragnhild Nystad dan láhkai ahte son doallá iežas juogalágán riikkaeadnin Sámis, nugo Nils Martin Kristensen vikkaha.
 1	Mii	mun	PRON	Pron	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	CLB	_	6	punct	_	_
+2	,	,	PUNCT	CLB	_	3	punct	_	_
 3	NSR-joavku	NSR-joavku	NOUN	N	Case=Nom|Number=Sing	1	appos	_	SpaceAfter=No
 4	,	,	PUNCT	CLB	_	6	punct	_	_
 5	eat	ii	AUX	V	Mood=Ind|Number=Plur|Person=1|Polarity=Neg|VerbForm=Fin	6	aux:neg	_	_
@@ -21638,7 +21638,7 @@
 15	juogalágán	juogalágan	ADJ	A	_	16	amod	_	_
 16	riikkaeadnin	riikkaeadni	NOUN	N	Case=Ess	14	xcomp:obj	_	_
 17	Sámis	Sápmi	PROPN	N	Case=Loc|Number=Sing	13	obl	_	SpaceAfter=No
-18	,	,	PUNCT	CLB	_	6	punct	_	_
+18	,	,	PUNCT	CLB	_	23	punct	_	_
 19	nugo	nugo	SCONJ	CS	_	23	mark	_	_
 20	Nils	Nils	PROPN	N	_	23	nsubj	_	_
 21	Martin	Martin	PROPN	N	_	20	flat	_	_
@@ -21685,7 +21685,7 @@
 # text = Patrika eadni, Anna Margrethe Bæhr, lohká maid iežas hirbmadit suorganan go gulai mii lea dáhpáhuvvan.
 1	Patrika	Patrik	PROPN	N	Case=Gen|Number=Sing	2	nmod:poss	_	_
 2	eadni	eadni	NOUN	N	Case=Nom|Number=Sing	8	nsubj	_	SpaceAfter=No
-3	,	,	PUNCT	CLB	_	8	punct	_	_
+3	,	,	PUNCT	CLB	_	4	punct	_	_
 4	Anna	Anna	PROPN	N	_	2	appos	_	_
 5	Margrethe	Margrethe	PROPN	N	_	4	flat	_	_
 6	Bæhr	Bæhr	PROPN	N	Case=Nom|Number=Sing	5	flat	_	SpaceAfter=No
@@ -21719,8 +21719,8 @@
 13	,	,	PUNCT	CLB	_	12	punct	_	_
 14	muitala	muitalit	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
 15	Gaup	Gaup	PROPN	N	Case=Nom|Number=Sing	14	nsubj	_	SpaceAfter=No
-16	,	,	PUNCT	CLB	_	2	punct	_	_
-17	ja	ja	CCONJ	CC	_	14	cc	_	_
+16	,	,	PUNCT	CLB	_	18	punct	_	_
+17	ja	ja	CCONJ	CC	_	18	cc	_	_
 18	lohká	lohkat	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 19	iežas	ieš	PRON	Pron	Case=Acc|Number[psor]=Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	18	obj	_	_
 20	duhtavažžan	duhtavaš	ADJ	A	Case=Ess	19	xcomp:obj	_	_
@@ -21868,7 +21868,7 @@
 1	Klemet	Klemet	PROPN	N	_	10	nsubj	_	_
 2	Anders	Anders	PROPN	N	_	1	flat	_	_
 3	Buljo	Buljo	PROPN	N	Case=Nom|Number=Sing	2	flat	_	SpaceAfter=No
-4	,	,	PUNCT	CLB	_	10	punct	_	_
+4	,	,	PUNCT	CLB	_	8	punct	_	_
 5	gii	gii	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	8	nsubj	_	_
 6	lea	leat	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 7	fitnodaga	fitnodat	NOUN	N	Case=Gen|Number=Sing	8	nmod:poss	_	_
@@ -21889,7 +21889,7 @@
 4	allaskuvlla	allaskuvla	NOUN	N	Case=Gen|Number=Sing	5	nmod:poss	_	_
 5	stivrra	stivra	NOUN	N	Case=Gen|Number=Sing	6	nmod:poss	_	_
 6	nubbinjođiheaddji	nubbijođiheaddji	NOUN	N	Case=Nom|Number=Sing	1	conj	_	SpaceAfter=No
-7	,	,	PUNCT	CLB	_	12	punct	_	_
+7	,	,	PUNCT	CLB	_	8	punct	_	_
 8	Marit	Marit	PROPN	N	_	6	appos	_	_
 9	Breie	Breie	PROPN	N	_	8	flat	_	_
 10	Henriksen	Henriksen	PROPN	N	Case=Nom|Number=Sing	9	flat	_	SpaceAfter=No
@@ -21929,9 +21929,9 @@
 3	juo	juo	ADV	Adv	_	2	advmod	_	_
 4	vuorrasit	vuoras	ADJ	A	Degree=Cmp	5	amod	_	_
 5	beallái	bealli	NOUN	N	Case=Ill|Number=Sing	2	obl	_	SpaceAfter=No
-6	,	,	PUNCT	CLB	_	2	punct	_	_
+6	,	,	PUNCT	CLB	_	7	punct	_	_
 7	84-jahkásaš	84-jahki	ADJ	N*	Case=Nom|Number=Sing	5	appos	_	SpaceAfter=No
-8	,	,	PUNCT	CLB	_	2	punct	_	_
+8	,	,	PUNCT	CLB	_	9	punct	_	_
 9	muhto	muhto	CCONJ	CC	_	2	cc	_	_
 10	dovdá	dovdat	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
 11	iežas	ieš	PRON	Pron	Case=Acc|Number[psor]=Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	10	obj	_	_
@@ -22025,7 +22025,7 @@
 1	Kárášjoga	Kárášjohka	PROPN	N	Case=Gen|Number=Sing	2	nmod:poss	_	_
 2	ealgabivdiidsearvvi	ealgabivdiidsearvi	NOUN	N	Case=Gen|Number=Sing	3	nmod:poss	_	_
 3	jođiheaddji	jođiheaddji	NOUN	N	Case=Nom|Number=Sing	9	nsubj	_	SpaceAfter=No
-4	,	,	PUNCT	CLB	_	9	punct	_	_
+4	,	,	PUNCT	CLB	_	5	punct	_	_
 5	Jan	Jan	PROPN	N	_	3	appos	_	_
 6	Idar	Idar	PROPN	N	_	5	flat	_	_
 7	Somby	Somby	PROPN	N	Case=Nom|Number=Sing	6	flat	_	SpaceAfter=No
@@ -22331,7 +22331,7 @@
 6	oaččui	oažžut	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
 7	golbma	golbma	NUM	Num	Case=Acc|Number=Sing|NumType=Card	8	nummod	_	_
 8	gándda	gánda	NOUN	N	Case=Gen|Number=Sing	6	obj	_	SpaceAfter=No
-9	,	,	PUNCT	CLB	_	4	punct	_	_
+9	,	,	PUNCT	CLB	_	10	punct	_	_
 10	maid	mii	PRON	Pron	Case=Acc|Number=Sing|PronType=Rel	8	obj	_	_
 11	gohčodedje	gohčodit	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
 12	Gállábárdnin	Gállábártnit	PROPN	N	Case=Ess	8	xcomp:obj	_	SpaceAfter=No
@@ -22420,7 +22420,7 @@
 7	Sarvva	Sarva	PROPN	N	Case=Acc|Number=Sing	6	flat	_	_
 8	fáktii	fáktet	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	_
 9	Riibmagállis	Riibmagállis	PROPN	N	Case=Nom|Number=Sing	8	nsubj	_	SpaceAfter=No
-10	,	,	PUNCT	CLB	_	3	punct	_	_
+10	,	,	PUNCT	CLB	_	12	punct	_	_
 11	buot	buot	ADV	Adv	_	12	advmod	_	_
 12	gievramus	gievra	ADJ	A	Degree=Sup	13	amod	_	_
 13	stállu	stállu	NOUN	N	Case=Nom|Number=Sing	9	appos	_	SpaceAfter=No
@@ -22491,7 +22491,7 @@
 5	balvva	balva	NOUN	N	Case=Gen|Number=Sing	6	nmod:poss	_	_
 6	ravdii	ravda	NOUN	N	Case=Ill|Number=Sing	4	obl	_	_
 7	hutkat	hutkat	VERB	V	VerbForm=Inf	4	advcl	_	SpaceAfter=No
-8	,	,	PUNCT	CLB	_	4	punct	_	_
+8	,	,	PUNCT	CLB	_	9	punct	_	_
 9	maid	mii	PRON	Pron	Case=Acc|Number=Sing|PronType=Rel	4	obj	_	_
 10	de	de	ADV	Adv	_	11	advmod	_	_
 11	barggašii	bargat	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	SpaceAfter=No
@@ -22572,7 +22572,7 @@
 17	doala	doallat	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	2	parataxis	_	_
 18	beatnagiiddát	beana	NOUN	N	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=2	17	obj	_	_
 19	gitta	gitta	ADV	Adv	_	17	advmod	_	SpaceAfter=No
-20	,	,	PUNCT	CLB	_	2	punct	_	_
+20	,	,	PUNCT	CLB	_	21	punct	_	_
 21	dahje	dahje	CCONJ	CC	_	17	cc	_	_
 22	mun	mun	PRON	Pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
 23	bávkalan	bávkalit	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
@@ -22600,7 +22600,7 @@
 5	ahte	ahte	SCONJ	CS	_	6	mark	_	_
 6	seasttán	seastit	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	_
 7	daid	dat	PRON	Pron	Case=Acc|Number=Plur|PronType=Dem	6	obj	_	SpaceAfter=No
-8	,	,	PUNCT	CLB	_	3	punct	_	_
+8	,	,	PUNCT	CLB	_	11	punct	_	_
 9	juos	juos	SCONJ	CS	_	11	mark	_	_
 10	it	ii	AUX	V	Mood=Ind|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin	11	aux:neg	_	_
 11	fárre	fárret	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	_
@@ -22672,8 +22672,8 @@
 2	healkkehii	healkkehit	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	ja	ja	CCONJ	CC	_	2	cc	_	_
 4	jearrá	jearrat	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
-5	:	:	PUNCT	CLB	_	2	punct	_	_
-6	-	-	PUNCT	PUNCT	_	2	punct	_	_
+5	:	:	PUNCT	CLB	_	7	punct	_	_
+6	-	-	PUNCT	PUNCT	_	7	punct	_	_
 7	Iibat	ii	AUX	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	4	aux:neg	_	_
 8	Mánučuovga	Mánučuovga	PROPN	N	Case=Nom|Number=Sing	7	nsubj	_	_
 9	leat	leat	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	_
@@ -22713,7 +22713,7 @@
 6	šat	šat	ADV	Adv	_	3	advmod	_	_
 7	deaivvadeamis	deaivvadit	VERB	V	Case=Loc|VerbForm=Ger	3	advcl	_	_
 8	suinna	son	PRON	Pron	Case=Com|Number=Sing|Person=3|PronType=Prs	3	obl	_	SpaceAfter=No
-9	,	,	PUNCT	CLB	_	3	punct	_	_
+9	,	,	PUNCT	CLB	_	11	punct	_	_
 10	áhčči	áhčči	NOUN	N	Case=Nom|Number=Sing	11	nsubj	_	_
 11	šikkui	šiggut	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	acl	_	SpaceAfter=No
 12	.	.	PUNCT	CLB	_	3	punct	_	_
@@ -22846,7 +22846,7 @@
 1	-	-	PUNCT	PUNCT	_	2	punct	_	_
 2	Makkár	makkár	PRON	Pron	PronType=Int	3	amod	_	_
 3	válljenmunni	válljenmunni	NOUN	N	Case=Nom|Number=Sing	6	nsubj	_	SpaceAfter=No
-4	,	,	PUNCT	CLB	_	6	punct	_	_
+4	,	,	PUNCT	CLB	_	5	punct	_	_
 5	son	son	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	conj	_	_
 6	huikkádii	huikkádit	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	6	punct	_	_
@@ -22917,7 +22917,7 @@
 1	Moai	mun	PRON	Pron	Case=Nom|Number=Dual|Person=1|PronType=Prs	2	nsubj	_	_
 2	čájehetne	čájehit	VERB	V	Mood=Ind|Number=Dual|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	Fávdnii	Fávdna	PROPN	N	Case=Ill|Number=Sing	2	obl	_	SpaceAfter=No
-4	,	,	PUNCT	CLB	_	2	punct	_	_
+4	,	,	PUNCT	CLB	_	8	punct	_	_
 5	guhte	guhte	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	8	nsubj	_	_
 6	lea	leat	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 7	buoremus	buorre	ADJ	A	Degree=Sup	8	amod	_	_
@@ -22979,7 +22979,7 @@
 7	oažžu	oažžut	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
 8	dáppe	dáppe	ADV	Adv	_	7	advmod	_	_
 9	meahcis	meahcci	NOUN	N	Case=Loc|Number=Sing	7	obl	_	SpaceAfter=No
-10	,	,	PUNCT	CLB	_	3	punct	_	_
+10	,	,	PUNCT	CLB	_	13	punct	_	_
 11	muhto	muhto	CCONJ	CC	_	13	mark	_	_
 12	juos	juos	SCONJ	CS	_	11	conj	_	_
 13	deaivat	deaivat	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	advcl	_	_
@@ -22988,7 +22988,7 @@
 16	Almmi	albmi	NOUN	N	Case=Gen|Number=Sing	14	conj	_	_
 17	Návlli	návli	NOUN	N	Case=Gen|Number=Sing	13	obl	_	_
 18	lahkosii	lahkosii	ADP	Po	_	13	obl	_	SpaceAfter=No
-19	,	,	PUNCT	CLB	_	3	punct	_	_
+19	,	,	PUNCT	CLB	_	21	punct	_	_
 20	fertebehtet	fertet	AUX	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	21	aux	_	_
 21	váruhit	váruhit	VERB	V	VerbForm=Inf	13	conj	_	_
 22	amadet	ii	AUX	V	Number=Plur|Person=2|Polarity=Neg|VerbForm=Sup	23	aux:neg	_	_
@@ -23120,13 +23120,13 @@
 10	soai	son	PRON	Pron	Case=Nom|Number=Dual|Person=3|PronType=Prs	11	nsubj	_	_
 11	bážiiga	báhčit	VERB	V	Mood=Ind|Number=Dual|Person=3|Tense=Past|VerbForm=Fin	3	parataxis	_	_
 12	oktanaga	oktanaga	ADV	Adv	_	11	advmod	_	SpaceAfter=No
-13	,	,	PUNCT	CLB	_	3	punct	_	_
+13	,	,	PUNCT	CLB	_	14	punct	_	_
 14	muhto	muhto	CCONJ	CC	_	11	cc	_	_
 15	eaba	ii	AUX	V	Mood=Ind|Number=Dual|Person=3|Polarity=Neg|VerbForm=Fin	16	aux:neg	_	_
 16	deaivan	deaivat	VERB	V	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
 17	Stuorra	stuoris	ADJ	A	_	18	amod	_	_
 18	Sarvai	sarvvis	NOUN	N	Case=Ill|Number=Sing	16	obl	_	SpaceAfter=No
-19	,	,	PUNCT	CLB	_	3	punct	_	_
+19	,	,	PUNCT	CLB	_	20	punct	_	_
 20	muhto	muhto	CCONJ	CC	_	16	cc	_	_
 21	goappašat	goappašat	PRON	Pron	Case=Nom|Number=Plur|PronType=Ind	22	nsubj	_	_
 22	deive	deaivat	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	parataxis	_	_
@@ -23282,7 +23282,7 @@
 5	árbevirolaš	árbevirolaš	ADJ	A	_	6	amod	_	_
 6	mainnas	máinnas	NOUN	N	Case=Nom|Number=Sing	2	nsubj	_	_
 7	sarvvabivddus	sarvvabivdu	NOUN	N	Case=Loc|Number=Sing	2	obl	_	SpaceAfter=No
-8	,	,	PUNCT	CLB	_	2	punct	_	_
+8	,	,	PUNCT	CLB	_	10	punct	_	_
 9	mii	mii	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	10	nsubj	_	_
 10	dáhpahuvai	dáhpáhuvvat	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
 11	aimmus	áibmu	NOUN	N	Case=Loc|Number=Sing	10	obl	_	SpaceAfter=No
@@ -23382,7 +23382,7 @@
 5	daid	dat	PRON	Pron	Case=Gen|Number=Plur|PronType=Dem	6	det	_	_
 6	evttohasaid	evttohas	NOUN	N	Case=Gen|Number=Plur	7	nmod:poss	_	_
 7	joavkkus	joavku	NOUN	N	Case=Loc|Number=Sing	2	obl	_	SpaceAfter=No
-8	,	,	PUNCT	CLB	_	2	punct	_	_
+8	,	,	PUNCT	CLB	_	9	punct	_	_
 9	geaid	gii	PRON	Pron	Case=Acc|Number=Plur|PronType=Rel	14	obj	_	_
 10	bellodagat	bellodat	NOUN	N	Case=Nom|Number=Plur	14	nsubj	_	_
 11	ja	ja	CCONJ	CC	_	10	cc	_	_
@@ -23476,7 +23476,7 @@
 4	geahččat	geahččat	VERB	V	VerbForm=Inf	3	advcl	_	_
 5	dien	diet	PRON	Pron	Case=Acc|Number=Sing|PronType=Dem	6	det	_	_
 6	nieidda	nieida	NOUN	N	Case=Acc|Number=Sing	4	obj	_	SpaceAfter=No
-7	,	,	PUNCT	CLB	_	1	punct	_	_
+7	,	,	PUNCT	CLB	_	9	punct	_	_
 8	gii	gii	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	9	nsubj	_	_
 9	váccii	vázzit	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	_	_
 10	stuora	stuoris	ADJ	A	_	11	amod	_	_
@@ -23490,7 +23490,7 @@
 3	Per	Per	PROPN	N	_	1	parataxis	_	_
 4	M.	m	NOUN	N	_	3	flat	_	_
 5	Buljo	Buljo	PROPN	N	Case=Nom|Number=Sing	4	flat	_	SpaceAfter=No
-6	,	,	PUNCT	CLB	_	1	punct	_	_
+6	,	,	PUNCT	CLB	_	7	punct	_	_
 7	Guovdageaidnu	Guovdageaidnu	PROPN	N	Case=Nom|Number=Sing	5	appos	_	SpaceAfter=No
 8	.	.	PUNCT	CLB	_	1	punct	_	_
 
@@ -23590,7 +23590,7 @@
 16	njiedjat	njiedjat	VERB	V	VerbForm=Inf	14	ccomp	_	_
 17	vuollel	vuollel	ADP	Pr	_	16	nmod	_	_
 18	viđa	vihtta	NUM	Num	Case=Gen|Number=Sing|NumType=Card	17	obl	_	SpaceAfter=No
-19	,	,	PUNCT	CLB	_	3	punct	_	_
+19	,	,	PUNCT	CLB	_	25	punct	_	_
 20	dasgo	dasgo	SCONJ	CS	_	25	mark	_	_
 21	dalle	dalle	ADV	Adv	_	25	advmod	_	_
 22	gielddas	gielda	NOUN	N	Case=Loc|Number=Sing	25	obl	_	_
