@@ -1526,14 +1526,14 @@
 1	Eai	ii	AUX	V	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin	2	aux:neg	_	_
 2	lean	leat	VERB	V	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	boraspiret	boraspire	NOUN	N	Case=Nom|Number=Plur	2	nsubj	_	SpaceAfter=No
-4	,	,	PUNCT	CLB	_	2	punct	_	_
+4	,	,	PUNCT	CLB	_	5	punct	_	_
 5	eai	ii	AUX	V	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin	2	aux:neg	_	_
-6	ealggat	ealga	NOUN	N	Case=Nom|Number=Plur	2	nsubj	_	SpaceAfter=No
-7	,	,	PUNCT	CLB	_	2	punct	_	_
+6	ealggat	ealga	NOUN	N	Case=Nom|Number=Plur	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	CLB	_	8	punct	_	_
 8	eaige	ii	AUX	V	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin	2	aux:neg	_	_
 9	nu	nu	ADV	Adv	_	10	advmod	_	_
 10	ollu	ollu	ADJ	A	_	11	amod	_	_
-11	bohccot	boazu	NOUN	N	Case=Nom|Number=Plur	2	nsubj	_	_
+11	bohccot	boazu	NOUN	N	Case=Nom|Number=Plur	3	conj	_	_
 12	dain	dat	PRON	Pron	Case=Loc|Number=Plur|PronType=Dem	13	det	_	_
 13	duovdagiin	duovdda	NOUN	N	Case=Loc|Number=Plur	2	obl	_	_
 14	go	go	SCONJ	CS	_	15	mark	_	_
@@ -2537,7 +2537,7 @@
 # text = Juos olmmoš ovdamearkan čuohpai muoraid muhtun vuovddis dahje guođohii šibihiid dihtoguovllus dainna jáhkuin ahte sus lei vuoigatvuohta dasa, de sáhttá oažžut dakkár geavahanvuoigatvuođa dohkkehuvvot.
 1	Juos	juos	SCONJ	CS	_	4	mark	_	_
 2	olmmoš	olmmoš	NOUN	N	Case=Nom|Number=Sing	4	nsubj	_	_
-3	ovdamearkan	ovdamearka	NOUN	N	Case=Ess	4	advmod	_	_
+3	ovdamearkan	ovdamearka	NOUN	N	Case=Ess	4	obl	_	_
 4	čuohpai	čuohppat	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	muoraid	muorra	NOUN	N	Case=Acc|Number=Plur	4	obj	_	_
 6	muhtun	muhtun	PRON	Pron	PronType=Ind	7	amod	_	_
@@ -2978,7 +2978,7 @@
 3	meahccái	meahcci	NOUN	N	Case=Ill|Number=Sing	2	obl	_	SpaceAfter=No
 4	,	,	PUNCT	CLB	_	2	punct	_	_
 5	ja	ja	CCONJ	CC	_	2	cc	_	_
-6	seavdnjadin	seavdnjat	ADJ	A	Case=Ess	8	advmod	_	_
+6	seavdnjadin	seavdnjat	ADJ	A	Case=Ess	8	obl	_	_
 7	ii	ii	AUX	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	8	aux:neg	_	_
 8	oainne	oaidnit	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 9	gosa	gosa	ADV	Adv	_	11	advmod	_	_
@@ -4254,7 +4254,7 @@
 6	guovlludepartementa	guovlludepartemeanta	NOUN	N	Case=Nom|Number=Sing	12	nsubj	_	_
 7	sámi	sápmi	NOUN	N	Case=Gen|Number=Sing	8	nmod:poss	_	_
 8	áššiid	ášši	NOUN	N	Case=Gen|Number=Plur	9	nmod:poss	_	_
-9	čohkkendepartementan	čohkkendepartemeanta	NOUN	N	Case=Ess	12	advmod	_	_
+9	čohkkendepartementan	čohkkendepartemeanta	NOUN	N	Case=Ess	12	obl	_	_
 10	galgá	galgat	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 11	buorebut	buorebut	ADV	Adv	Degree=Cmp	12	advmod	_	_
 12	koordineret	koordineret	VERB	V	VerbForm=Inf	2	ccomp	_	_
@@ -4716,7 +4716,7 @@
 
 # sent_id = 352
 # text = Mihttomearrin lea sihkkarastit dássásašvuođa ja ovttalágan ovdánanvejolašvuođaid buot olmmoščearddaide.
-1	Mihttomearrin	mihttomearri	NOUN	N	Case=Ess	2	advmod	_	_
+1	Mihttomearrin	mihttomearri	NOUN	N	Case=Ess	2	obl	_	_
 2	lea	leat	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	sihkkarastit	sihkkarastit	VERB	V	VerbForm=Inf	2	csubj	_	_
 4	dássásašvuođa	dássásašvuohta	NOUN	N	Case=Acc|Number=Sing	3	obj	_	_
@@ -7249,7 +7249,7 @@
 # sent_id = 564
 # text = Dasa lassin lea son oahpahan Romssa ja Oslo universitehtain, ja eanandoalloallaskuvllas.
 1	Dasa	dat	PRON	Pron	Case=Ill|Number=Sing|PronType=Dem	5	obl	_	_
-2	lassin	lassi	NOUN	N	Case=Ess	5	advmod	_	_
+2	lassin	lassi	NOUN	N	Case=Ess	5	obl	_	_
 3	lea	leat	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 4	son	son	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 5	oahpahan	oahpahit	VERB	V	Aspect=Perf|VerbForm=Part	0	root	_	_
@@ -7434,7 +7434,7 @@
 
 # sent_id = 583
 # text = Váldoággan heajos skuvllaboahtimii lei, skuvllastivrra ovdaolbmo mielde, váivvádus sáddet mánáid priváhta olbmuid lusa skuvllaáiggis.
-1	Váldoággan	váldoágga	NOUN	N	Case=Ess	4	advmod	_	_
+1	Váldoággan	váldoágga	NOUN	N	Case=Ess	4	obl	_	_
 2	heajos	headju	ADJ	A	_	3	amod	_	_
 3	skuvllaboahtimii	skuvllaboahtin	NOUN	N	Case=Ill|Number=Sing	4	obl	_	_
 4	lei	leat	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -10394,7 +10394,7 @@
 # sent_id = 841
 # text = Dasa lassin buvttán dás lasseargumenttaid.
 1	Dasa	dat	PRON	Pron	Case=Ill|Number=Sing|PronType=Dem	3	obl	_	_
-2	lassin	lassi	NOUN	N	Case=Ess	3	advmod	_	_
+2	lassin	lassi	NOUN	N	Case=Ess	3	obl	_	_
 3	buvttán	buktit	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	dás	dás	ADV	Adv	_	3	advmod	_	_
 5	lasseargumenttaid	lasseargumeanta	NOUN	N	Case=Acc|Number=Plur	3	obj	_	SpaceAfter=No
@@ -11085,7 +11085,7 @@
 # text = Dilli joatkašuvvá dákkárin guhkás boahtteáigái.
 1	Dilli	dilli	NOUN	N	Case=Nom|Number=Sing	2	nsubj	_	_
 2	joatkašuvvá	joatkašuvvat	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	dákkárin	dákkár	PRON	Pron	Case=Ess|PronType=Dem	2	advmod	_	_
+3	dákkárin	dákkár	PRON	Pron	Case=Ess|PronType=Dem	2	obl	_	_
 4	guhkás	guhkás	ADV	Adv	_	2	advmod	_	_
 5	boahtteáigái	boahtteáigi	NOUN	N	Case=Ill|Number=Sing	2	obl	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	2	punct	_	_
