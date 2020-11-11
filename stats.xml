@@ -18,7 +18,7 @@
     <tag name="ADJ">1376</tag><!-- buorre, stuoris, ollu, ođas, vuosttaš, boaris, guhkki, váttis, nuorra, nubbi -->
     <tag name="ADP">502</tag><!-- birra, mielde, lusa, gaskkas, ovddas, rájes, mielas, luhtte, bokte, maŋŋá -->
     <tag name="ADV">2100</tag><!-- de, gal, nu, dál, dušše, maid, maiddái, doppe, hui, juo -->
-    <tag name="AUX">617</tag><!-- leat -->
+    <tag name="AUX">1994</tag><!-- leat, ii, sáhttit, galgat, fertet, áigut, lávet, háliidit, beassat, máhttit -->
     <tag name="CCONJ">1010</tag><!-- ja, muhto, dahje, vai, ahte, dahe, dahjege, dehe -->
     <tag name="INTJ">15</tag><!-- vuoi, gea, hei, ho, hoi, maid -->
     <tag name="NOUN">6419</tag><!-- mánná, olmmoš, sápmi, jahki, skuvla, girji, nieida, sámegiella, áigi, eadni -->
@@ -28,7 +28,7 @@
     <tag name="PROPN">992</tag><!-- Kárášjohka, Sámediggi, Finnmárku, Guovdageaidnu, Norga, Gállá, Máhtte, Máret, Sápmi, Romsa -->
     <tag name="PUNCT">4143</tag><!-- ., ,, ?, ^excl, :, -, &#34;, (, ), – -->
     <tag name="SCONJ">534</tag><!-- go, ahte, vai, vaikko, jus, jos, dego, ovdalgo, juos, ovdal_go -->
-    <tag name="VERB">5687</tag><!-- leat, ii, boahtit, sáhttit, galgat, mannat, oažžut, oaidnit, vuolgit, váldit -->
+    <tag name="VERB">4310</tag><!-- leat, boahtit, mannat, oažžut, oaidnit, vuolgit, váldit, bargat, lohkat, addit -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="46">
@@ -61,7 +61,7 @@
     <feat name="Person[psor]" value="1" upos="ADJ,NOUN,PRON">92</feat><!-- iežan, vielljan, iežamet, alcceseamet, alccesan, alcceseame, bártnážan, heaggan, iežainan, mánáidasame -->
     <feat name="Person[psor]" value="2" upos="NOUN,PRON">69</feat><!-- iežat, iežadet, iežade, alccesat, alcceseattet, mánát, áhččát, alcceseatte, alddáde, beatnagat -->
     <feat name="Person[psor]" value="3" upos="ADJ,ADV,NOUN,PRON">255</feat><!-- iežas, iežaset, alccesis, alddis, eatnis, áhčis, dahkamušaidis, iežainis, iežaska, mánáideaset -->
-    <feat name="Polarity" value="Neg" upos="VERB">430</feat><!-- ii, eai, in, eat, it, ale, eaba, iige, eaige, ean -->
+    <feat name="Polarity" value="Neg" upos="AUX">430</feat><!-- ii, eai, in, eat, it, ale, eaba, iige, eaige, ean -->
     <feat name="PronType" value="Coll" upos="NOUN">40</feat><!-- máŋggas, guovttis, Máŋgasat, golbmasa, golbmasis, golmmas, guovttos, máná-guovttos, viđas, Biera-guovttos -->
     <feat name="PronType" value="Dem" upos="PRON">645</feat><!-- dat, dan, dán, dát, daid, dasa, dakkár, das, dainna, diet -->
     <feat name="PronType" value="Ind" upos="PRON">342</feat><!-- buot, juohke, eará, muhtun, unnán, maidege, oktage, muhtin, nuppi, seamma -->
@@ -76,7 +76,7 @@
     <feat name="VerbForm" value="Ger" upos="AUX,VERB">131</feat><!-- beroškeahttá, boahtimin, leamen, vácci, fárremin, čierastallame, čuoigga, bargame, bargamin, bassaladdame -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">831</feat><!-- leat, vuolgit, boahtit, bargat, mannat, geahččat, oastit, oažžut, dahkat, ráhkadit -->
     <feat name="VerbForm" value="Part" upos="AUX,VERB">523</feat><!-- leamaš, oaidnán, ožžon, boahtán, mannan, oahppan, čállán, bargan, dahkan, váldán -->
-    <feat name="VerbForm" value="Sup" upos="VERB">7</feat><!-- amadet, amas, amaset, amat, vuoššažit -->
+    <feat name="VerbForm" value="Sup" upos="AUX,VERB">7</feat><!-- amadet, amas, amaset, amat, vuoššažit -->
     <feat name="Voice" value="Pass" upos="VERB">240</feat><!-- adnojuvvo, álggahuvvui, addojuvvo, dárbbašuvvojit, filbmejuvvon, gáibiduvvo, mearriduvvo, ráddjejuvvon, ráhkaduvvon, vuođđuduvvon -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
@@ -84,7 +84,7 @@
     <dep name="acl">127</dep>
     <dep name="acl:relcl">268</dep>
     <dep name="advcl">589</dep>
-    <dep name="advmod">2079</dep>
+    <dep name="advmod">2057</dep>
     <dep name="amod">1203</dep>
     <dep name="appos">68</dep>
     <dep name="aux">947</dep>
@@ -95,7 +95,7 @@
     <dep name="ccomp">198</dep>
     <dep name="compound">26</dep>
     <dep name="compound:nn">30</dep>
-    <dep name="conj">873</dep>
+    <dep name="conj">875</dep>
     <dep name="cop">617</dep>
     <dep name="csubj">53</dep>
     <dep name="det">219</dep>
@@ -104,10 +104,10 @@
     <dep name="mark">534</dep>
     <dep name="nmod">153</dep>
     <dep name="nmod:poss">976</dep>
-    <dep name="nsubj">3294</dep>
+    <dep name="nsubj">3292</dep>
     <dep name="nummod">239</dep>
     <dep name="obj">1492</dep>
-    <dep name="obl">2692</dep>
+    <dep name="obl">2714</dep>
     <dep name="parataxis">324</dep>
     <dep name="punct">4143</dep>
     <dep name="root">3122</dep>
