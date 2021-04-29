@@ -30,6 +30,8 @@ If you use this data in your work, please cite:
 
 # Changelog
 
+* 2021-05-15 v2.8
+  * Undocumented PronType=Coll should actually be NumType=Coll (still language-specific).
 * 2018-04-15 v2.2
   * Repository renamed from UD_North_Sami to UD_North_Sami-Giella.
 * 2017-11-15 v2.1

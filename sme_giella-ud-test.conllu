@@ -78,7 +78,7 @@
 7	go	go	SCONJ	CS	_	8	mark	_	_
 8	leat	leat	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
 9	nu	nu	ADV	Adv	_	10	advmod	_	_
-10	máŋggas	máŋggas	NOUN	N	Case=Nom|Number=Sing|PronType=Coll	8	nsubj	_	_
+10	máŋggas	máŋggas	NOUN	N	Case=Nom|Number=Sing|NumType=Coll	8	nsubj	_	_
 11	geat	gii	PRON	Pron	Case=Nom|Number=Plur|PronType=Rel	12	nsubj	_	_
 12	hupmet	hupmat	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
 13	ovttas	ovttas	ADV	Adv	_	12	advmod	_	_
@@ -765,7 +765,7 @@
 # text = Muhto dán olbmáguoktái allet daga maidege, dasgo soai leaba gávdnan suoji mu dáhki vuolde.
 1	Muhto	muhto	CCONJ	CC	_	5	cc	_	_
 2	dán	dát	PRON	Pron	Case=Ill|Number=Sing|PronType=Dem	3	amod	_	_
-3	olbmáguoktái	olbmáguovttis	NOUN	N	Case=Ill|Number=Sing|PronType=Coll	5	obl	_	_
+3	olbmáguoktái	olbmáguovttis	NOUN	N	Case=Ill|Number=Sing|NumType=Coll	5	obl	_	_
 4	allet	ii	AUX	V	Mood=Imp|Number=Plur|Person=2|Polarity=Neg|VerbForm=Fin	5	aux:neg	_	_
 5	daga	dahkat	VERB	V	Connegative=Yes|Mood=Imp|VerbForm=Fin	0	root	_	_
 6	maidege	mihkkege	PRON	Pron	Case=Acc|Number=Sing|PronType=Ind	5	obj	_	SpaceAfter=No
@@ -4821,7 +4821,7 @@
 
 # sent_id = 362
 # text = Máŋggas čuldojuvvojedje, fertejedje vázzit guokte jagi vuosttaš luohkás.
-1	Máŋggas	máŋggas	NOUN	N	Case=Nom|Number=Sing|PronType=Coll	2	nsubj	_	_
+1	Máŋggas	máŋggas	NOUN	N	Case=Nom|Number=Sing|NumType=Coll	2	nsubj	_	_
 2	čuldojuvvojedje	čuoldit	VERB	V*	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	CLB	_	2	punct	_	_
 4	fertejedje	fertet	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
@@ -5332,7 +5332,7 @@
 
 # sent_id = 401
 # text = Guovttis fas máhttiba oalle bures, muhto eaba geavat giela oahpahusas.
-1	Guovttis	guovttis	NOUN	N	Case=Nom|Number=Sing|PronType=Coll	3	nsubj	_	_
+1	Guovttis	guovttis	NOUN	N	Case=Nom|Number=Sing|NumType=Coll	3	nsubj	_	_
 2	fas	fas	ADV	Adv	_	3	advmod	_	_
 3	máhttiba	máhttit	VERB	V	Mood=Ind|Number=Dual|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	oalle	oalle	ADV	Adv	_	5	advmod	_	_
@@ -5537,7 +5537,7 @@
 4	diggot	diggot	VERB	V	VerbForm=Inf	0	root	_	_
 5	duoinna	duot	PRON	Pron	Case=Com|Number=Sing|PronType=Dem	7	det	_	_
 6	jallas	jalla	ADJ	A	_	7	amod	_	_
-7	nieidda-guovttuin	nieidda-guovttos	NOUN	N	Case=Com|Number=Sing|PronType=Coll	4	obl	_	SpaceAfter=No
+7	nieidda-guovttuin	nieidda-guovttos	NOUN	N	Case=Com|Number=Sing|NumType=Coll	4	obl	_	SpaceAfter=No
 8	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = 420
@@ -5554,7 +5554,7 @@
 # sent_id = 421
 # text = Danin Isabellá-guovttos vikkaiga givssidit Liná.
 1	Danin	danin	ADV	Adv	_	4	advmod	_	_
-2	Isabellá-guovttos	Isabellá-guovttos	NOUN	N	Case=Nom|Number=Sing|PronType=Coll	4	nsubj	_	_
+2	Isabellá-guovttos	Isabellá-guovttos	NOUN	N	Case=Nom|Number=Sing|NumType=Coll	4	nsubj	_	_
 3	vikkaiga	viggat	AUX	V	Mood=Ind|Number=Dual|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
 4	givssidit	givssidit	VERB	V	VerbForm=Inf	0	root	_	_
 5	Liná	Liná	PROPN	N	Case=Acc|Number=Sing	4	obj	_	SpaceAfter=No
@@ -6959,7 +6959,7 @@
 5	boradan	boradit	VERB	V	Aspect=Perf|VerbForm=Part	3	conj	_	SpaceAfter=No
 6	,	,	PUNCT	CLB	_	10	punct	_	_
 7	de	de	ADV	Adv	_	10	advmod	_	_
-8	máná-guovttos	máná-guovttos	NOUN	N	Case=Nom|Number=Sing|PronType=Coll	10	nsubj	_	_
+8	máná-guovttos	máná-guovttos	NOUN	N	Case=Nom|Number=Sing|NumType=Coll	10	nsubj	_	_
 9	nu	nu	ADV	Adv	_	10	advmod	_	_
 10	váibaba	váibat	VERB	V	Mood=Ind|Number=Dual|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	nu	nu	ADV	Adv	_	10	advmod	_	_
@@ -8429,7 +8429,7 @@
 
 # sent_id = 659
 # text = Máŋggas, geain lei stohpu giliguovddáža lahkosis háliidedje mánáid internáhttii.
-1	Máŋggas	máŋggas	NOUN	N	Case=Nom|Number=Sing|PronType=Coll	8	nsubj	_	SpaceAfter=No
+1	Máŋggas	máŋggas	NOUN	N	Case=Nom|Number=Sing|NumType=Coll	8	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	CLB	_	4	punct	_	_
 3	geain	gii	PRON	Pron	Case=Loc|Number=Plur|PronType=Rel	4	obl	_	_
 4	lei	leat	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
@@ -9214,7 +9214,7 @@
 11	orodettiin	orrut	VERB	V	VerbForm=Ger	2	advcl	_	SpaceAfter=No
 12	,	,	PUNCT	CLB	_	17	punct	_	_
 13	vaikko	vaikko	SCONJ	CS	_	17	mark	_	_
-14	máŋggas	máŋggas	NOUN	N	Case=Nom|Number=Sing|PronType=Coll	17	nsubj	_	_
+14	máŋggas	máŋggas	NOUN	N	Case=Nom|Number=Sing|NumType=Coll	17	nsubj	_	_
 15	sis	son	PRON	Pron	Case=Loc|Number=Plur|Person=3|PronType=Prs	14	nmod	_	_
 16	ledje	leat	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	cop	_	_
 17	fulkkežagat	fulkkežagat	NOUN	N	Case=Nom|Number=Plur	2	advcl	_	SpaceAfter=No
@@ -9934,7 +9934,7 @@
 
 # sent_id = 786
 # text = Biera-guovttos Márehiin leaba daid mánáid váhnemat.
-1	Biera-guovttos	Biera-guovttos	NOUN	N	Case=Nom|Number=Sing|PronType=Coll	6	nsubj	_	_
+1	Biera-guovttos	Biera-guovttos	NOUN	N	Case=Nom|Number=Sing|NumType=Coll	6	nsubj	_	_
 2	Márehiin	Máret	PROPN	N	Case=Com|Number=Sing	1	nmod	_	_
 3	leaba	leat	AUX	V	Mood=Ind|Number=Dual|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 4	daid	dat	PRON	Pron	Case=Gen|Number=Plur|PronType=Dem	5	det	_	_
@@ -9953,7 +9953,7 @@
 
 # sent_id = 788
 # text = Biret-guovttos Juffáin leaba čeahpit duddjot.
-1	Biret-guovttos	Biret-guovttos	NOUN	N	Case=Nom|Number=Sing|PronType=Coll	4	nsubj	_	_
+1	Biret-guovttos	Biret-guovttos	NOUN	N	Case=Nom|Number=Sing|NumType=Coll	4	nsubj	_	_
 2	Juffáin	Juffá	PROPN	N	Case=Com|Number=Sing	1	nmod	_	_
 3	leaba	leat	AUX	V	Mood=Ind|Number=Dual|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	čeahpit	čeahppi	ADJ	A	Case=Nom|Number=Plur	0	root	_	_
@@ -10829,7 +10829,7 @@
 # text = De mii golmmas leansmánniin manaimet geahččat.
 1	De	de	ADV	Adv	_	5	advmod	_	_
 2	mii	mun	PRON	Pron	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
-3	golmmas	golmmas	NOUN	N	Case=Nom|Number=Sing|PronType=Coll	2	appos	_	_
+3	golmmas	golmmas	NOUN	N	Case=Nom|Number=Sing|NumType=Coll	2	appos	_	_
 4	leansmánniin	leansmánni	NOUN	N	Case=Com|Number=Sing	3	nmod	_	_
 5	manaimet	mannat	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 6	geahččat	geahččat	VERB	V	VerbForm=Inf	5	advcl	_	SpaceAfter=No
@@ -11962,7 +11962,7 @@
 # sent_id = 988
 # text = Eai guovttis ge nagot loktet dan geađggi.
 1	Eai	ii	AUX	V	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin	5	aux:neg	_	_
-2	guovttis	guovttis	NOUN	N	Case=Nom|Number=Sing|PronType=Coll	5	nsubj	_	_
+2	guovttis	guovttis	NOUN	N	Case=Nom|Number=Sing|NumType=Coll	5	nsubj	_	_
 3	ge	ge	PART	Pcle	_	5	discourse	_	_
 4	nagot	nagodit	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
 5	loktet	loktet	VERB	V	VerbForm=Inf	0	root	_	_
@@ -12519,7 +12519,7 @@
 4	,	,	PUNCT	CLB	_	3	punct	_	_
 5	de	de	ADV	Adv	_	6	advmod	_	_
 6	čuoigaledje	čuoigalit	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-7	máŋggas	máŋggas	NOUN	N	Case=Nom|Number=Sing|PronType=Coll	6	nsubj	_	_
+7	máŋggas	máŋggas	NOUN	N	Case=Nom|Number=Sing|NumType=Coll	6	nsubj	_	_
 8	várrái	várri	NOUN	N	Case=Ill|Number=Sing	6	obl	_	SpaceAfter=No
 9	.	.	PUNCT	CLB	_	6	punct	_	_
 

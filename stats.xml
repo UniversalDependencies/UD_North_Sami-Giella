@@ -55,6 +55,7 @@
     <feat name="Number[psor]" value="Plur" upos="ADJ,ADV,NOUN,PRON">101</feat><!-- iežaset, iežadet, iežamet, alcceseamet, mánáideaset, alcceseaset, alcceseattet, alddiset, gaskaneaset, Oabbámet -->
     <feat name="Number[psor]" value="Sing" upos="ADJ,ADV,NOUN,PRON">269</feat><!-- iežas, iežan, iežat, alccesis, vielljan, alddis, eatnis, áhčis, dahkamušaidis, iežainis -->
     <feat name="NumType" value="Card" upos="NUM">348</feat><!-- guokte, golbma, ovtta, okta, moadde, máŋga, golmma, vihtta, guovtti, máŋgga -->
+    <feat name="NumType" value="Coll" upos="NOUN">40</feat><!-- máŋggas, guovttis, Máŋgasat, golbmasa, golbmasis, golmmas, guovttos, máná-guovttos, viđas, Biera-guovttos -->
     <feat name="Person" value="1" upos="AUX,PRON,VERB">1189</feat><!-- mun, mii, mu, min, in, lean, moai, munnje, mus, eat -->
     <feat name="Person" value="2" upos="AUX,PRON,VERB">554</feat><!-- don, dii, du, dus, leat, doai, it, lehpet, ale, din -->
     <feat name="Person" value="3" upos="AUX,PRON,VERB">4027</feat><!-- lea, son, leat, lei, ii, ledje, sii, eai, su, galgá -->
@@ -62,7 +63,6 @@
     <feat name="Person[psor]" value="2" upos="NOUN,PRON">69</feat><!-- iežat, iežadet, iežade, alccesat, alcceseattet, mánát, áhččát, alcceseatte, alddáde, beatnagat -->
     <feat name="Person[psor]" value="3" upos="ADJ,ADV,NOUN,PRON">255</feat><!-- iežas, iežaset, alccesis, alddis, eatnis, áhčis, dahkamušaidis, iežainis, iežaska, mánáideaset -->
     <feat name="Polarity" value="Neg" upos="AUX">430</feat><!-- ii, eai, in, eat, it, ale, eaba, iige, eaige, ean -->
-    <feat name="PronType" value="Coll" upos="NOUN">40</feat><!-- máŋggas, guovttis, Máŋgasat, golbmasa, golbmasis, golmmas, guovttos, máná-guovttos, viđas, Biera-guovttos -->
     <feat name="PronType" value="Dem" upos="PRON">645</feat><!-- dat, dan, dán, dát, daid, dasa, dakkár, das, dainna, diet -->
     <feat name="PronType" value="Ind" upos="PRON">342</feat><!-- buot, juohke, eará, muhtun, unnán, maidege, oktage, muhtin, nuppi, seamma -->
     <feat name="PronType" value="Int" upos="PRON">50</feat><!-- makkár, maid, Mii, gii, Gean, Goabbá, maidba -->
