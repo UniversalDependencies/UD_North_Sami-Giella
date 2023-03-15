@@ -2180,10 +2180,10 @@
 4	sárdnun-	sárdnut	NOUN	V*	_	6	compound	_	_
 5	ja	ja	CCONJ	CC	_	4	cc	_	_
 6	evttohanvuoigatvuohta	evttohanvuoigatvuohta	NOUN	N	Case=Nom|Number=Sing	3	nsubj	_	SpaceAfter=No
-7	,	,	PUNCT	CLB	_	3	punct	_	_
+7	,	,	PUNCT	CLB	_	8	punct	_	_
 8	muhto	muhto	CCONJ	CC	_	3	cc	_	_
 9	ii	ii	AUX	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	3	aux:neg	_	_
-10	jienastanvuoigatvuohta	jienastanvuoigatvuohta	NOUN	N	Case=Nom|Number=Sing	3	nsubj	_	SpaceAfter=No
+10	jienastanvuoigatvuohta	jienastanvuoigatvuohta	NOUN	N	Case=Nom|Number=Sing	6	conj	_	SpaceAfter=No
 11	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = 159
@@ -6026,10 +6026,10 @@
 5	riggodagat	riggodat	NOUN	N	Case=Nom|Number=Plur	3	conj	_	_
 6	buktojuvvojit	buktit	VERB	V*	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 7	gávpogii	gávpot	NOUN	N	Case=Ill|Number=Sing	6	obl	_	SpaceAfter=No
-8	,	,	PUNCT	CLB	_	6	punct	_	_
+8	,	,	PUNCT	CLB	_	9	punct	_	_
 9	muhto	muhto	CCONJ	CC	_	6	cc	_	_
 10	ii	ii	AUX	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	13	aux:neg	_	_
-11	mihkkege	mihkkege	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	13	nsubj	_	_
+11	mihkkege	mihkkege	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	3	conj	_	_
 12	buhtismeahttumiid	buhtismeahttun	ADJ	A	Case=Acc|Number=Plur	11	amod	_	_
 13	beasa	beassat	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
 14	sisa	sisa	ADV	Adv	_	13	advmod	_	SpaceAfter=No
@@ -6040,7 +6040,7 @@
 19	fastivuođa	fastivuohta	NOUN	N	Case=Gen|Number=Sing	18	conj	_	_
 20	ja	ja	CCONJ	CC	_	19	cc	_	_
 21	giellása	gielis	NOUN	N	Case=Gen|Number=Sing	19	conj	_	_
-22	bálvaleaddji	bálvaleaddji	NOUN	N	Case=Nom|Number=Sing	6	nsubj	_	SpaceAfter=No
+22	bálvaleaddji	bálvaleaddji	NOUN	N	Case=Nom|Number=Sing	3	conj	_	SpaceAfter=No
 23	,	,	PUNCT	CLB	_	24	punct	_	_
 24	muhto	muhto	CCONJ	CC	_	22	cc	_	_
 25	dušše	dušše	ADV	Adv	_	26	advmod	_	_
@@ -9207,14 +9207,14 @@
 4	dahje	dahje	CCONJ	CC	_	2	cc	_	_
 5	ii	ii	AUX	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	2	aux:neg	_	_
 6	makkárge	makkárge	PRON	Pron	PronType=Ind	7	amod	_	_
-7	oktavuohta	oktavuohta	NOUN	N	Case=Nom|Number=Sing	2	nsubj	_	_
+7	oktavuohta	oktavuohta	NOUN	N	Case=Nom|Number=Sing	3	conj	_	_
 8	earáiguin	eará	PRON	Pron	Case=Com|Number=Plur|PronType=Ind	2	obl	_	_
 9	earretgo	earretgo	SCONJ	CS	_	11	mark	_	_
 10	internáhtas	internáhta	NOUN	N	Case=Loc|Number=Sing	11	nmod	_	_
 11	orodettiin	orrut	VERB	V	VerbForm=Ger	2	advcl	_	SpaceAfter=No
-12	,	,	PUNCT	CLB	_	17	punct	_	_
+12	,	,	PUNCT	CLB	_	13	punct	_	_
 13	vaikko	vaikko	SCONJ	CS	_	17	mark	_	_
-14	máŋggas	máŋggas	NOUN	N	Case=Nom|Number=Sing|NumType=Coll	17	nsubj	_	_
+14	máŋggas	máŋggas	NOUN	N	Case=Nom|Number=Sing|NumType=Coll	3	conj	_	_
 15	sis	son	PRON	Pron	Case=Loc|Number=Plur|Person=3|PronType=Prs	14	nmod	_	_
 16	ledje	leat	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	cop	_	_
 17	fulkkežagat	fulkkežagat	NOUN	N	Case=Nom|Number=Plur	2	advcl	_	SpaceAfter=No
