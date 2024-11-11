@@ -16008,7 +16008,7 @@
 1	Eadni	eadni	NOUN	N	Case=Nom|Number=Sing	3	nsubj	_	_
 2	ii	ii	AUX	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	3	aux:neg	_	_
 3	diehtán	diehtit	VERB	V	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-4	ieš	ieš	PRON	Pron	Case=Nom|Number=Sing|PronType=Prs|Reflex=Yes	1	det	_	_
+4	ieš	ieš	PRON	Pron	Case=Nom|Number=Sing|PronType=Prs|Reflex=Yes	3	obl	_	_
 5	ge	ge	PART	Pcle	_	4	discourse	_	_
 6	man	man	ADV	Adv	_	7	advmod	_	_
 7	buorre	buorre	ADJ	A	Case=Nom|Number=Sing	3	ccomp	_	_
@@ -20125,7 +20125,7 @@
 3	nana	nanus	ADJ	A	_	4	amod	_	_
 4	árbevierru	árbevierru	NOUN	N	Case=Nom|Number=Sing	2	nsubj	_	_
 5	veahkehit	veahkehit	VERB	V	VerbForm=Inf	4	acl	_	_
-6	ieš	ieš	PRON	Pron	Case=Nom|Number=Sing|PronType=Prs|Reflex=Yes	7	det	_	_
+6	ieš	ieš	PRON	Pron	Case=Nom|Number=Sing|PronType=Prs|Reflex=Yes	5	obl	_	_
 7	iežas	ieš	PRON	Pron	Case=Gen|Number[psor]=Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	8	det	_	_
 8	persovnnalaš	persovnnalaš	ADJ	A	_	9	amod	_	_
 9	fierpmádagaid	fierpmádat	NOUN	N	Case=Gen|Number=Plur	10	obl	_	_
