@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_North_Sami-Giella:
-commit e64f5425eb889895343f0f6b886e2acc3405e157
-Merge: 09673bf 7ab5f5b
+commit c3b7b748ac559683593911e8d74a1d975f973cd4
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Mon Nov 11 16:14:43 2024 +0100
 Size: counted 26845 of 26845 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.58015916774907.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -23,20 +23,20 @@ Udapi:
                TOTAL          1
 Udapi: found 1 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 26845 words.
-Genres: found 2 out of 17 known.
+Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang sme --max-err=10 UD_North_Sami-Giella/sme_giella-ud-test.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang sme --max-err=10 UD_North_Sami-Giella/sme_giella-ud-train.conllu
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
+(weight=0.0769230769230769) * (score{genres}=0.111111111111111) = 0.00854700854700855
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
 (weight=0.256410256410256) * (score{size}=0.476287802766419) = 0.122125077632415
 (weight=0.0512820512820513) * (score{split}=0.67) = 0.0343589743589744
 (weight=0.0769230769230769) * (score{tags}=0.658823529411765) = 0.0506787330316742
 (weight=0.307692307692308) * (score{udapi}=0.999627491152915) = 0.307577689585512
 (weight=0.0769230769230769) * (score{udeprels}=0.583783783783784) = 0.0449064449064449
-(TOTAL score=0.6917736163476) * (availability=1) * (validity=1) = 0.6917736163476
+(TOTAL score=0.691270851138952) * (availability=1) * (validity=1) = 0.691270851138952
 STARS = 3.5
-UD_North_Sami-Giella	0.6917736163476	3.5
+UD_North_Sami-Giella	0.691270851138952	3.5
