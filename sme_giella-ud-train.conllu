@@ -13334,7 +13334,7 @@
 3	oastte	oastit	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	báiddi	báidi	NOUN	N	Case=Acc|Number=Sing	3	obj	_	_
 5	inge	ii	AUX	V	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin	3	aux:neg	_	_
-6	buvssaid	buvssat	NOUN	N	Case=Acc|Number=Plur	3	obj	_	SpaceAfter=No
+6	buvssaid	buvssat	NOUN	N	Case=Acc|Number=Plur	4	conj	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = 2487
