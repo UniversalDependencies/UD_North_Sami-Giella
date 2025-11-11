@@ -95,7 +95,7 @@
     <dep name="ccomp">198</dep>
     <dep name="compound">26</dep>
     <dep name="compound:nn">30</dep>
-    <dep name="conj">881</dep>
+    <dep name="conj">882</dep>
     <dep name="cop">617</dep>
     <dep name="csubj">53</dep>
     <dep name="det">217</dep>
@@ -106,7 +106,7 @@
     <dep name="nmod:poss">976</dep>
     <dep name="nsubj">3286</dep>
     <dep name="nummod">239</dep>
-    <dep name="obj">1492</dep>
+    <dep name="obj">1491</dep>
     <dep name="obl">2716</dep>
     <dep name="parataxis">324</dep>
     <dep name="punct">4143</dep>
