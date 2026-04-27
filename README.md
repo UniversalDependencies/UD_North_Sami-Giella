@@ -30,6 +30,8 @@ If you use this data in your work, please cite:
 
 # Changelog
 
+* 2026-04-29 v2.18
+  * Fixed: obl to nmod according to validator where parent was NOUN but also conj when following cc (rueter)
 * 2025-10-30 v2.17
   * Fixed: double object in 2486. (rueter)
 * 2021-05-15 v2.8

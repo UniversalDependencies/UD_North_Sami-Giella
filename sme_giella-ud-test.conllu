@@ -631,7 +631,7 @@
 8	Goahteluobbalis	Goahteluoppal	PROPN	N	Case=Loc|Number=Sing	3	obl	_	_
 9	ja	ja	CCONJ	CC	_	8	cc	_	_
 10	eará	eará	PRON	Pron	PronType=Ind	11	amod	_	_
-11	báikkiin	báiki	NOUN	N	Case=Loc|Number=Plur	8	obl	_	_
+11	báikkiin	báiki	NOUN	N	Case=Loc|Number=Plur	8	conj	_	_
 12	suohkanis	suohkan	NOUN	N	Case=Loc|Number=Sing	11	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	CLB	_	15	punct	_	_
 14	go	go	SCONJ	CS	_	15	mark	_	_
@@ -1855,7 +1855,7 @@
 11	ja	ja	CCONJ	CC	_	7	cc	_	_
 12	daid	dat	PRON	Pron	Case=Gen|Number=Plur|PronType=Dem	13	det	_	_
 13	mearrádusaid	mearrádus	NOUN	N	Case=Gen|Number=Plur	7	conj	_	_
-14	mielde	mielde	ADP	Po	_	7	obl	_	_
+14	mielde	mielde	ADP	Po	_	13	case	_	_
 15	mat	mii	PRON	Pron	Case=Nom|Number=Plur|PronType=Rel	17	nsubj	_	_
 16	leat	leat	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
 17	šiehtaduvvon	šiehtadit	VERB	V*	Aspect=Perf|VerbForm=Part|Voice=Pass	13	acl:relcl	_	_
@@ -2070,7 +2070,7 @@
 17	mielde	mielde	ADP	Po	_	16	case	_	_
 18	ja	ja	CCONJ	CC	_	16	cc	_	_
 19	govttolaš	govttolaš	ADJ	A	_	20	amod	_	_
-20	áigemeriin	áigemearri	NOUN	N	Case=Com|Number=Sing	16	obl	_	SpaceAfter=No
+20	áigemeriin	áigemearri	NOUN	N	Case=Com|Number=Sing	16	conj	_	SpaceAfter=No
 21	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = 153
@@ -3020,7 +3020,7 @@
 8	ja	ja	CCONJ	CC	_	7	cc	_	_
 9	jeaggái	jeaggi	NOUN	N	Case=Ill|Number=Sing	7	conj	_	_
 10	ja	ja	CCONJ	CC	_	9	cc	_	_
-11	muoraid	muorra	NOUN	N	Case=Gen|Number=Plur	7	obl	_	_
+11	muoraid	muorra	NOUN	N	Case=Gen|Number=Plur	7	conj	_	_
 12	vuostá	vuostá	ADP	Po	_	11	case	_	SpaceAfter=No
 13	,	,	PUNCT	CLB	_	2	punct	_	_
 14	ja	ja	CCONJ	CC	_	2	cc	_	_
@@ -5303,16 +5303,16 @@
 # sent_id = 398
 # text = Sámi joatkkaskuvllas ledje leamaš dearvvašvuođa- ja sosiálafágat juo 1982 rájes.
 1	Sámi	sápmi	NOUN	N	Case=Gen|Number=Sing	2	nmod:poss	_	_
-2	joatkkaskuvllas	joatkkaskuvla	NOUN	N	Case=Loc|Number=Sing	3	obl	_	_
-3	ledje	leat	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-4	leamaš	leat	VERB	V	Aspect=Perf|VerbForm=Part	3	parataxis	_	_
+2	joatkkaskuvllas	joatkkaskuvla	NOUN	N	Case=Loc|Number=Sing	4	obl	_	_
+3	ledje	leat	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	leamaš	leat	VERB	V	Aspect=Perf|VerbForm=Part	0	root	_	_
 5	dearvvašvuođa-	dearvvašvuohta	NOUN	N	_	7	compound	_	_
-6	ja	ja	CCONJ	CC	_	5	cc	_	_
-7	sosiálafágat	sosiálafága	NOUN	N	Case=Nom|Number=Plur	3	nsubj	_	_
-8	juo	juo	ADV	Adv	_	7	advmod	_	_
-9	1982	1982	NUM	Num	Case=Gen|Number=Sing|NumType=Card	7	obl	_	_
+6	ja	ja	CCONJ	CC	_	7	cc	_	_
+7	sosiálafágat	sosiálafága	NOUN	N	Case=Nom|Number=Plur	4	nsubj	_	_
+8	juo	juo	ADV	Adv	_	9	advmod	_	_
+9	1982	1982	NUM	Num	Case=Gen|Number=Sing|NumType=Card	4	obl	_	_
 10	rájes	rájes	ADP	Po	_	9	case	_	SpaceAfter=No
-11	.	.	PUNCT	CLB	_	3	punct	_	_
+11	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = 399
 # text = Dat ii bistán guhká, farga šattai buiga dearvvašvuođa- ja sosiálafága vuođđokursa.
@@ -11057,7 +11057,7 @@
 4	go	go	SCONJ	CS	_	6	mark	_	_
 5	iežan	ieš	PRON	Pron	Case=Gen|Number[psor]=Sing|Person[psor]=1|PronType=Prs|Reflex=Yes	6	nmod:poss	_	_
 6	gili	gilli	NOUN	N	Case=Gen|Number=Sing	3	advcl	_	_
-7	birra	birra	ADP	Po	_	3	obl	_	SpaceAfter=No
+7	birra	birra	ADP	Po	_	6	case	_	SpaceAfter=No
 8	.	.	PUNCT	CLB	_	1	punct	_	_
 
 # sent_id = 906
