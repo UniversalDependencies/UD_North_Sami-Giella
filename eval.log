@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_North_Sami-Giella:
-commit 8b246d9fa0422937060335fae7a1bfb16127bab1
-Merge: daeeb3f 20df71d
+commit d1a0566c863d6f815717de388205288b73bf703d
+Merge: 5d84ca5 225a5e6
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'sme_giella'
@@ -25,26 +25,8 @@ Universal relations: 27 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang sme --max-err=10 UD_North_Sami-Giella/sme_giella-ud-test.conllu
-[Line 634 Sent 44]: [L3 Warning obl-should-be-nmod] The parent (node [8] 'Goahteluobbalis') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 1858 Sent 138]: [L3 Warning obl-should-be-nmod] The parent (node [7] 'álgoálbmogiid') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 2073 Sent 150]: [L3 Warning obl-should-be-nmod] The parent (node [16] 'vuogi') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 3023 Sent 217]: [L3 Warning obl-should-be-nmod] The parent (node [7] 'jávrái') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 5313 Sent 398]: [L3 Warning obl-should-be-nmod] The parent (node [7] 'sosiálafágat') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 6728 Sent 521]: [L3 Warning obl-should-be-nmod] The parent (node [7] 'lávlaga') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 8358 Sent 654]: [L3 Warning obl-should-be-nmod] The parent (node [5] 'klássalanja') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 11060 Sent 905]: [L3 Warning obl-should-be-nmod] The parent (node [3] 'Oslo') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-Warnings: 8
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang sme --max-err=10 UD_North_Sami-Giella/sme_giella-ud-train.conllu
-[Line 8755 Sent 2012]: [L3 Warning obl-should-be-nmod] The parent (node [4] 'Kárášjogas') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 9205 Sent 2062]: [L3 Warning obl-should-be-nmod] The parent (node [7] 'Kárášjogas') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 11604 Sent 2336]: [L3 Warning obl-should-be-nmod] The parent (node [7] 'girkui') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 11685 Sent 2343]: [L3 Warning obl-should-be-nmod] The parent (node [10] 'mánáidskuvllas') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 12940 Sent 2459]: [L3 Warning obl-should-be-nmod] The parent (node [21] 'mánáide') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 14221 Sent 2567]: [L3 Warning obl-should-be-nmod] The parent (node [7] 'Dálošvákkis') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 20699 Sent 3262]: [L3 Warning obl-should-be-nmod] The parent (node [22] 'ráhkadeapmái') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 21137 Sent 3299]: [L3 Warning obl-should-be-nmod] The parent (node [15] 'eatni') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-Warnings: 8
 *** PASSED ***
 Validity: 1
 (weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
