@@ -8751,8 +8751,8 @@
 2	barget	bargat	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	sihke	sihke	ADV	Adv	_	4	cc:preconj	_	_
 4	Kárášjogas	Kárášjohka	PROPN	N	Case=Loc|Number=Sing	2	obl	_	_
-5	ja	ja	CCONJ	CC	_	4	cc	_	_
-6	Guovdageainnus	Guovdageaidnu	PROPN	N	Case=Loc|Number=Sing	4	obl	_	SpaceAfter=No
+5	ja	ja	CCONJ	CC	_	6	cc	_	_
+6	Guovdageainnus	Guovdageaidnu	PROPN	N	Case=Loc|Number=Sing	4	conj	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = 2013
@@ -9201,8 +9201,8 @@
 5	,	,	PUNCT	CLB	_	2	punct	_	_
 6	sihke	sihke	ADV	Adv	_	7	cc:preconj	_	_
 7	Kárášjogas	Kárášjohka	PROPN	N	Case=Loc|Number=Sing	2	obl	_	_
-8	ja	ja	CCONJ	CC	_	7	cc	_	_
-9	Guovdageainnus	Guovdageaidnu	PROPN	N	Case=Loc|Number=Sing	7	obl	_	SpaceAfter=No
+8	ja	ja	CCONJ	CC	_	9	cc	_	_
+9	Guovdageainnus	Guovdageaidnu	PROPN	N	Case=Loc|Number=Sing	7	conj	_	SpaceAfter=No
 10	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = 2063
@@ -11600,8 +11600,8 @@
 5	heasttaiguin	heasta	NOUN	N	Case=Com|Number=Plur	6	obl	_	_
 6	johtit	johtit	VERB	V	VerbForm=Inf	0	root	_	_
 7	girkui	girku	NOUN	N	Case=Ill|Number=Sing	6	obl	_	_
-8	ja	ja	CCONJ	CC	_	7	cc	_	_
-9	headjaviesu	headjaviessu	NOUN	N	Case=Gen|Number=Sing	7	obl	_	_
+8	ja	ja	CCONJ	CC	_	9	cc	_	_
+9	headjaviesu	headjaviessu	NOUN	N	Case=Gen|Number=Sing	7	conj	_	_
 10	lusa	lusa	ADP	Po	_	9	case	_	SpaceAfter=No
 11	.	.	PUNCT	CLB	_	6	punct	_	_
 
@@ -11681,8 +11681,8 @@
 8	,	,	PUNCT	CLB	_	4	punct	_	_
 9	sihke	sihke	ADV	Adv	_	10	cc:preconj	_	_
 10	mánáidskuvllas	mánáidskuvla	NOUN	N	Case=Loc|Number=Sing	4	obl	_	_
-11	ja	ja	CCONJ	CC	_	10	cc	_	_
-12	joatkkaskuvllas	joatkkaskuvla	NOUN	N	Case=Loc|Number=Sing	10	obl	_	SpaceAfter=No
+11	ja	ja	CCONJ	CC	_	12	cc	_	_
+12	joatkkaskuvllas	joatkkaskuvla	NOUN	N	Case=Loc|Number=Sing	10	conj	_	SpaceAfter=No
 13	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = 2344
@@ -12936,8 +12936,8 @@
 19	gullugovaid	gullugovva	NOUN	N	Case=Acc|Number=Plur	13	conj	_	_
 20	sihke	sihke	ADV	Adv	_	21	cc:preconj	_	_
 21	mánáide	mánná	NOUN	N	Case=Ill|Number=Plur	12	obl	_	_
-22	ja	ja	CCONJ	CC	_	21	cc	_	_
-23	rávesolbmuide	rávesolmmoš	NOUN	N	Case=Ill|Number=Plur	21	obl	_	SpaceAfter=No
+22	ja	ja	CCONJ	CC	_	23	cc	_	_
+23	rávesolbmuide	rávesolmmoš	NOUN	N	Case=Ill|Number=Plur	21	conj	_	SpaceAfter=No
 24	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = 2461
@@ -14217,8 +14217,8 @@
 5	,	,	PUNCT	CLB	_	2	punct	_	_
 6	sihke	sihke	ADV	Adv	_	7	cc:preconj	_	_
 7	Dálošvákkis	Dálošvággi	PROPN	N	Case=Loc|Number=Sing	2	obl	_	_
-8	ja	ja	CCONJ	CC	_	7	cc	_	_
-9	Olmmáivákkis	Olmmáivággi	PROPN	N	Case=Loc|Number=Sing	7	obl	_	SpaceAfter=No
+8	ja	ja	CCONJ	CC	_	9	cc	_	_
+9	Olmmáivákkis	Olmmáivággi	PROPN	N	Case=Loc|Number=Sing	7	conj	_	SpaceAfter=No
 10	,	,	PUNCT	CLB	_	14	punct	_	_
 11	jus	jus	SCONJ	CS	_	14	mark	_	_
 12	lea	leat	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
@@ -20695,8 +20695,8 @@
 20	sihke	sihke	ADV	Adv	_	22	cc:preconj	_	_
 21	prográmmaid	prográmma	NOUN	N	Case=Gen|Number=Plur	22	nmod:poss	_	_
 22	ráhkadeapmái	ráhkadeapmi	NOUN	N	Case=Ill|Number=Sing	19	obl	_	_
-23	ja	ja	CCONJ	CC	_	22	cc	_	_
-24	gielladutkamii	gielladutkan	NOUN	N	Case=Ill|Number=Sing	22	obl	_	SpaceAfter=No
+23	ja	ja	CCONJ	CC	_	24	cc	_	_
+24	gielladutkamii	gielladutkan	NOUN	N	Case=Ill|Number=Sing	22	conj	_	SpaceAfter=No
 25	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = 3263
@@ -21133,8 +21133,8 @@
 13	siidaoasis	siidaoassi	NOUN	N	Case=Loc|Number=Sing	11	nmod	_	_
 14	sihke	sihke	ADV	Adv	_	15	cc:preconj	_	_
 15	eatni	eadni	NOUN	N	Case=Gen|Number=Sing	18	obl	_	_
-16	ja	ja	CCONJ	CC	_	15	cc	_	_
-17	áhči	áhčči	NOUN	N	Case=Gen|Number=Sing	15	obl	_	_
+16	ja	ja	CCONJ	CC	_	17	cc	_	_
+17	áhči	áhčči	NOUN	N	Case=Gen|Number=Sing	15	conj	_	_
 18	bealde	bealde	ADP	Po	_	11	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	CLB	_	9	punct	_	_
 
